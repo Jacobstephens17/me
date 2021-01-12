@@ -30,9 +30,9 @@ function Home() {
         <ParagraphTwo>My name is Jacob Stephens, I am 23 years old, and am currently enrolled in Lambda School doing their Full Stack Web Development Course. The objective of this website is to display the skills that I have learned over the past couple weeks, along with showing off other projects, photographs, ideas and personal hobbies. I am very passionate about technology, design, photography, and a huge fan of constant innovation.</ParagraphTwo>
 
         <IconSpan>
-          <MidIconOne></MidIconOne>
-          <MidIconTwo></MidIconTwo>
-          <MidIconThree></MidIconThree>
+          <MidIconOne/>
+          <MidIconTwo/>
+          <MidIconThree/>
         </IconSpan>
 
       </CenterDiv>
