@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: .5%;
+  left: 3%;
+  top:3%;
+  padding:1rem;
+}
+
+
+
+.bm-burger-bars {
+  background: #55AFA5;
+}
+
+.hamburger{
+  background-color: #55AFA5;
+  
+}
+
+.buttons{
+  padding:2rem;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight:300;
+  color:white;
+}
