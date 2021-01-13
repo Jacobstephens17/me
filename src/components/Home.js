@@ -288,7 +288,7 @@ export default Home;
     font-weight:bold;
     font-size:2.5rem;
     letter-spacing:2px;
-    width:75%;
+    width:100%;
 `
     
     const GalleryParOne = styled.p`
@@ -296,7 +296,7 @@ export default Home;
     text-align:left;
     font-size:1.6rem;
     letter-spacing:2px;
-    width:75%;
+    width:100%;
 `
     
     const GalleryTwo = styled.div`
