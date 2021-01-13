@@ -178,16 +178,7 @@ export default Home;
     
 `
     
-const ActivateButton = styled.button`
-    padding:1.5% 2%;
-    letter-spacing:2px;
-    display:flex;
-    margin: 3% auto 3% auto;
-    background-color:#DE6852;
-    color:white;
-    border:none;
-    border-radius:4px;
-`
+
     
     
     const CenterDiv = styled.div`
@@ -291,13 +282,6 @@ const ActivateButton = styled.button`
     padding-bottom:3rem;
     position:cover;
 `
-    const GalleryImgThree = styled.img`
-    height:100%;
-    width:80rem;
-    background-position:cover;
-    position:cover;
-`
-    
     const GalleryHeadOne = styled.h2`
     color:#000080;
     text-align:left;
@@ -435,63 +419,8 @@ const ActivateButton = styled.button`
 `
     
     
-    const FooterOptions = styled.div`
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    padding: 10rem;
-    background:url('https://images.unsplash.com/photo-1515563139710-9b2ccf0927c9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2767&q=80') no-repeat center;
-    background-size:cover;
-`
-    
-    
-    const FooterContent = styled.div`
-    display:flex;
-    flex-direction:column;
-    width:25%;
-    padding:6rem;
-    margin-right:25%;
-    color:white;
-`
-    const FooterButtons = styled.div`
-    display:flex;
-    margin-left:25%;
-    flex-direction:column;
-    `
-    
-    const FooterHead = styled.h2`
-    font-weight:bold;
-    font-size:2.5rem;
-    letter-spacing: 2px;
-`
-    
-    const FooterPar = styled.p`
-    font-size:1.2rem;
-    letter-spacing:2px;
-`
-    
-    const ActivateButtonFoot = styled.button`
-    padding:15% 15%;
-    letter-spacing:2px;
-    display:flex;
-    margin: 3% auto 3% auto;
-    background-color:#DE6852;
-    color:white;
-    border:none;
-    border-radius:4px;
-`
-    
-    const LearnButton = styled.button`
-    padding:8% 8%;
-    letter-spacing:2px;
-    display:flex;
-    margin: 3% auto 3% auto;
-    background-color:black;
-    color:white;
-    border:none;
-    border-radius:4px;
-`
-    
+ 
+  
     
     const Social = styled.div`
     background-color:#2c333a;

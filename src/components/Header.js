@@ -2,7 +2,6 @@ import React from 'react';
 import { slide as Hamburger } from "react-burger-menu";
 import styled from 'styled-components';
 import {
-    BrowserRouter as Router,
     Link,
     Route,
     Switch,
