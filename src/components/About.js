@@ -83,48 +83,49 @@ letter-spacing:2px;
 text-shadow:5px 3px 30px black;
 `
 
-    const Social = styled.div`
-    background-color:#2c333a;
-    padding:6rem;
-    display:flex;
-    justify-content:center;
-    
-`
-    
-    const Twitter = styled.button`
-    border:white;
-    padding:1rem;
-    margin:5rem;
-    background:url('https://img.icons8.com/ios/72/twitter--v1.png') center;
-    background-size:2rem;
-`
-    
-    const Facebook = styled.button`
-    border:white;
-    padding:1rem;
-    margin:5rem;
-    background:url('https://img.icons8.com/ios/72/facebook-new.png') center;
-    background-size:2rem;
-`
-    
-    const Instagram = styled.button`
-    border:white;
-    padding:1rem;
-    margin:5rem;
-    background:url('https://img.icons8.com/ios/72/instagram-new--v1.png') center;
-    background-size:2rem;
-`
-    
+      
+const Social = styled.div`
+background-color:#2c333a;
+padding:6rem;
+display:flex;
+justify-content:center;
 
-    
-    const Email = styled.button`
-    border:white;
-    padding:1rem;
-    margin:5rem;
-    background:url('https://img.icons8.com/ios/72/email.png') center;
-    background-size:2rem;
 `
-    
+
+const Twitter = styled.button`
+border:white;
+padding:5rem;
+margin:5rem;
+background:url('https://img.icons8.com/ios/72/twitter--v1.png') no-repeat center;
+background-size:4rem;
+`
+
+const Facebook = styled.button`
+border:white;
+padding:5rem;
+margin:5rem;
+background:url('https://img.icons8.com/ios/72/facebook-new.png') no-repeat center;
+background-size:4rem;
+`
+
+const Instagram = styled.button`
+border:white;
+padding:5rem;
+margin:5rem;
+background:url('https://img.icons8.com/ios/72/instagram-new--v1.png') no-repeat center;
+background-size:4rem;
+`
+
+
+
+
+const Email = styled.button`
+border:white;
+padding:5rem;
+margin:5rem;
+background:url('https://img.icons8.com/ios/72/email.png') no-repeat center;
+background-size:4rem;
+` 
     const CenterDiv = styled.div`
     color:black;
     background-color:white;

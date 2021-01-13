@@ -27,7 +27,7 @@ function Home() {
       <CenterDiv>
 
         <HeaderTwo>Cover Letter</HeaderTwo>
-        <ParagraphTwo>My name is Jacob Stephens, I am 23 years old, and am currently enrolled in Lambda School doing their Full Stack Web Development Course. The objective of this website is to display the skills that I have learned over the past couple weeks, along with showing off other projects, photographs, ideas and personal hobbies. I am very passionate about technology, design, photography, and a huge fan of constant innovation.</ParagraphTwo>
+        <ParagraphTwo>My name is Jacob Stephens, I am 23 years old, and am currently enrolled in the Full Stack Web Development Course at Lambda School. The objective of this website is to display the skills that I have learned over the past couple weeks, along with showing off other projects, photographs, ideas and personal hobbies. I am very passionate about technology, design, photography, and a huge fan of constant innovation</ParagraphTwo>
 
         <IconSpan>
           <MidIconOne/>
@@ -45,7 +45,7 @@ function Home() {
           <GalleryImg src={GalleryOneImg}/>
           <GalleryTextSpan>
           <GalleryHeadOne>Unique</GalleryHeadOne>
-          <GalleryParOne>I have a passion for design, the art of lighting, shadows, and coloring. Experimenting with different combinations can result in happy accidents, like this photo.</GalleryParOne>
+          <GalleryParOne>I have a passion for design, the art of lighting, shadows, and coloring. Experimenting with different combinations can result in happy accidents, like this photo</GalleryParOne>
           </GalleryTextSpan>
         </GalleryOne>
 
@@ -54,7 +54,7 @@ function Home() {
         <GalleryTwo>
           <GalleryTextSpan>
             <GalleryHeadTwo>Nature Inspired</GalleryHeadTwo>
-            <GalleryParTwo>Nature inspires my eye for natural, simplified beauty in all things.</GalleryParTwo>
+            <GalleryParTwo>Nature inspires my eye for natural, simplified beauty in all things</GalleryParTwo>
           </GalleryTextSpan>
             <GalleryImg src={GalleryTwoImg} />
         </GalleryTwo>
@@ -62,7 +62,7 @@ function Home() {
 
 
         <GalleryThree>
-          <GalleryImgThree src={GalleryThreeImg} />
+          <GalleryImg src={GalleryThreeImg} />
           <GalleryTextSpan>
             <GalleryHeadThree>Future Oriented</GalleryHeadThree>
             <GalleryParThree>My objective is to work with a team of like minded people in pursuit of a better tomorrow</GalleryParThree>
@@ -103,27 +103,21 @@ function Home() {
             <BottomDivHeadings>Node.js</BottomDivHeadings>
           </BottomDivCard>
 
+          <BottomDivCard>
+            <BottomDivHeadings>GitHub</BottomDivHeadings>
+          </BottomDivCard>
+
+          <BottomDivCard>
+            <BottomDivHeadings>MacOS</BottomDivHeadings>
+          </BottomDivCard>
+
+          <BottomDivCard>
+            <BottomDivHeadings>Windows</BottomDivHeadings>
+          </BottomDivCard>
+
         </BottomDivContent>
 
       </BottomDiv>
-
-
-
-      <FooterOptions>
-
-        <FooterContent>
-          <FooterHead>Learn More</FooterHead>
-          <FooterPar>If you would like to stay updated with my progress, please click the button.</FooterPar>
-        </FooterContent>
-
-        <FooterButtons>
-          <ActivateButtonFoot>About Me</ActivateButtonFoot>
-          <LearnButton>LEARN MORE</LearnButton>
-        </FooterButtons>
-
-      </FooterOptions>
-
-
 
       <Social>
         <Twitter/>
@@ -198,7 +192,7 @@ const ActivateButton = styled.button`
     
     const CenterDiv = styled.div`
     color:black;
-    background-color:#55AFA5;
+    background-color:#000080;
     padding:1.2%;
 `
     
@@ -211,7 +205,7 @@ const ActivateButton = styled.button`
     padding-top:5%;
     border-bottom: solid 1.5px darkgrey;
     font-weight:bold;
-    font-size:25px;
+    font-size:35px;
     letter-spacing: 2px;
 `
     
@@ -283,8 +277,7 @@ const ActivateButton = styled.button`
     justify-content:space-between;
     flex-direction:row;
     width:100%;
-    background-color:#373f49;
-    border-bottom:solid 1px #293037;
+    background-color:#000000;
     letter-spacing: 2px;
 `
     
@@ -292,6 +285,10 @@ const ActivateButton = styled.button`
     height:100%;
     width:80rem;
     background-position:cover;
+    border-radius:80px;
+    padding:2rem;
+    padding-top:3rem;
+    padding-bottom:3rem;
     position:cover;
 `
     const GalleryImgThree = styled.img`
@@ -302,7 +299,7 @@ const ActivateButton = styled.button`
 `
     
     const GalleryHeadOne = styled.h2`
-    color:white;
+    color:#000080;
     text-align:left;
     font-weight:bold;
     font-size:2.5rem;
@@ -324,12 +321,11 @@ const ActivateButton = styled.button`
     justify-content:space-between;
     flex-direction:row;
     width:100%;
-    background-color:#2c333a;
-    border-bottom:solid 1px #2c333a;
+    background-color:#000000;
 `
     
     const GalleryHeadTwo = styled.h2`
-    color:white;
+    color:#000080;
     text-align:left;
     font-weight:bold;
     font-size:2.5rem;
@@ -348,14 +344,15 @@ const ActivateButton = styled.button`
     const GalleryThree = styled.div`
     display:flex;
     align-items:center;
-    justify-content:space-evenly;
+    justify-content:space-between;
     flex-direction:row;
     width:100%;
-    background-color:#21262c;
+    background-color:#000000;
+    letter-spacing: 2px;
 `
     
     const GalleryHeadThree = styled.h2`
-    color:white;
+    color:#000080;
     text-align:left;
     font-weight:bold;
     font-size:2.5rem;
@@ -382,7 +379,7 @@ const ActivateButton = styled.button`
     align-items:center;
     justify-content:center;
     flex-direction:column;
-    background-color: #51528F;
+    background-color:#000080;
     padding:5rem;
 `
     
@@ -399,7 +396,7 @@ const ActivateButton = styled.button`
     display:flex;
     align-items:center;
     justify-content:center;
-    font-size:2.5rem;
+    font-size:3rem;
     letter-spacing: 2px;
     color:white;
     margin-bottom:1rem;
@@ -432,8 +429,9 @@ const ActivateButton = styled.button`
     width:25%;
     text-align:center;
     margin:2rem 2rem;
-    background-color:#494a83;
-    border: solid .1px #535493;
+    background-color:#000080;
+    border: solid 5px black;
+    border-radius:10px;
 `
     
     

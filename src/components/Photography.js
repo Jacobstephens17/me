@@ -72,13 +72,13 @@ export default Photography;
 `
     
     const CenterDiv = styled.div`
-    color:black;
-    background-color:white;
+    color:#000080;
+    background-color:black;
     padding:3rem;
 `
     
     const HeaderTwo = styled.h2`
-    color:black;
+    color:#000080;
     width:75%;
     margin:auto;
     text-align:left;
@@ -92,52 +92,53 @@ export default Photography;
     const ParagraphTwo = styled.p`
     padding-top:3rem;
     text-align: left;
-    color:black;
+    color:#000080;
     width:75%;
     margin:auto;
     font-size:18px;
     letter-spacing:2px;
     padding-bottom:3rem;
 `
-    
-    const Social = styled.div`
-    background-color:#2c333a;
-    padding:6rem;
-    display:flex;
-    justify-content:center;
-    
+   
+const Social = styled.div`
+background-color:#2c333a;
+padding:6rem;
+display:flex;
+justify-content:center;
+
 `
-    
-    const Twitter = styled.button`
-    border:white;
-    padding:1rem;
-    margin:5rem;
-    background:url('https://img.icons8.com/ios/72/twitter--v1.png') center;
-    background-size:2rem;
+
+const Twitter = styled.button`
+border:white;
+padding:5rem;
+margin:5rem;
+background:url('https://img.icons8.com/ios/72/twitter--v1.png') no-repeat center;
+background-size:4rem;
 `
-    
-    const Facebook = styled.button`
-    border:white;
-    padding:1rem;
-    margin:5rem;
-    background:url('https://img.icons8.com/ios/72/facebook-new.png') center;
-    background-size:2rem;
+
+const Facebook = styled.button`
+border:white;
+padding:5rem;
+margin:5rem;
+background:url('https://img.icons8.com/ios/72/facebook-new.png') no-repeat center;
+background-size:4rem;
 `
-    
-    const Instagram = styled.button`
-    border:white;
-    padding:1rem;
-    margin:5rem;
-    background:url('https://img.icons8.com/ios/72/instagram-new--v1.png') center;
-    background-size:2rem;
+
+const Instagram = styled.button`
+border:white;
+padding:5rem;
+margin:5rem;
+background:url('https://img.icons8.com/ios/72/instagram-new--v1.png') no-repeat center;
+background-size:4rem;
 `
-    
- 
-    
-    const Email = styled.button`
-    border:white;
-    padding:1rem;
-    margin:5rem;
-    background:url('https://img.icons8.com/ios/72/email.png') center;
-    background-size:2rem;
+
+
+
+
+const Email = styled.button`
+border:white;
+padding:5rem;
+margin:5rem;
+background:url('https://img.icons8.com/ios/72/email.png') no-repeat center;
+background-size:4rem;
 `
