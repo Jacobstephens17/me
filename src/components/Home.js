@@ -273,8 +273,8 @@ export default Home;
 `
     
     const GalleryImg = styled.img`
-    height:500px;
-    width:auto;
+    height:auto;
+    width:75%;
     background-position:cover;
     border-radius:80px;
     padding:2rem;
