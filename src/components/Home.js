@@ -24,12 +24,6 @@ function Home() {
         <HeaderTwo>Cover Letter</HeaderTwo>
         <ParagraphTwo>My name is Jacob Stephens, I am 23 years old, and am currently enrolled in the Full Stack Web Development Course at Lambda School. The objective of this website is to display the skills that I have learned over the past couple weeks, along with showing off other projects, photographs, ideas and personal hobbies. I am very passionate about technology, design, photography, and a huge fan of constant innovation</ParagraphTwo>
 
-        <IconSpan>
-          <MidIconOne/>
-          <MidIconTwo/>
-          <MidIconThree/>
-        </IconSpan>
-
       </CenterDiv>
 
 
@@ -47,11 +41,11 @@ function Home() {
 
 
         <GalleryTwo>
+            <GalleryImg src={GalleryTwoImg} />
           <GalleryTextSpan>
             <GalleryHeadTwo>Nature Inspired</GalleryHeadTwo>
             <GalleryParTwo>Nature inspires my eye for natural, simplified beauty in all things</GalleryParTwo>
           </GalleryTextSpan>
-            <GalleryImg src={GalleryTwoImg} />
         </GalleryTwo>
       
 
@@ -143,7 +137,7 @@ export default Home;
     background:url('https://images.unsplash.com/photo-1515563139710-9b2ccf0927c9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2767&q=80') no-repeat center;
     width:100%;
     background-size:cover;
-    height:100vh;
+    height:125vh;
 `
     
     
@@ -155,6 +149,7 @@ export default Home;
     flex-wrap:wrap;
     margin:15rem auto 0rem auto;
     background-color:none;
+    padding-top:12rem;
     font-weight:30px;
     justify-content:center;
     font-size:70px;
@@ -169,7 +164,7 @@ export default Home;
     width:65%;
     padding-bottom:2rem;
     margin: 0 auto;
-    font-size:2rem;
+    font-size:1.8rem;
     letter-spacing:2px;
     text-shadow:5px 3px 20px black;
     
@@ -182,6 +177,7 @@ export default Home;
     color:black;
     background-color:#000080;
     padding:1.2%;
+    padding-bottom:10rem;
 `
     
     const HeaderTwo = styled.h2`
@@ -207,58 +203,11 @@ export default Home;
     letter-spacing:2px;
 `
     
-    const IconSpan = styled.span`
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    padding-top:3%;
-    padding-bottom:3%;
-    flex-wrap:wrap;
-`
-    
-    const MidIconOne = styled.button`
-    display:flex;
-    width:auto;
-    margin:3%;
-    padding:4rem;
-    flex-direction:row;
-    background-color:#55AFA5;
-    border:none;
-    justify-content:center;
-    background:url('https://www.flaticon.com/svg/vstatic/svg/1384/1384088.svg?token=exp=1610421692~hmac=477f5d67fb0f1398e12b25ab5792b365') no-repeat;
-    background-size:5rem;
-`
-    
-    const MidIconTwo = styled.button`
-    display:flex;
-    width:auto;
-    margin:3%;
-    padding:4rem;
-    flex-direction:row;
-    background-color:#55AFA5;
-    border:none;
-    justify-content:center;
-    background:url('https://www.flaticon.com/svg/vstatic/svg/733/733609.svg?token=exp=1610421748~hmac=13f86cf31cb00ebcfa006e3e7284e335') no-repeat;
-    background-size:5rem;
-`
-    
-    const MidIconThree = styled.button`
-    display:flex;
-    width:auto;
-    margin:3%;
-    padding:4rem;
-    flex-direction:row;
-    background-color:#55AFA5;
-    border:none;
-    justify-content:center;
-    background:url('https://www.flaticon.com/svg/vstatic/svg/733/733614.svg?token=exp=1610421793~hmac=07a0a6492f405a6e56734199e4e0563c') no-repeat;
-    background-size:5rem;
-`
-    
     const Gallery = styled.div`
     display:flex;
     flex-direction:column;
     width:100%;
+    padding-bottom:4rem;
 `
     
     const GalleryOne = styled.div`
@@ -274,80 +223,82 @@ export default Home;
     
     const GalleryImg = styled.img`
     height:auto;
-    width:25%;
+    width:100%;
     background-position:cover;
-    border-radius:80px;
+    border-radius:8px;
+    border:1px solid #000080;
     position:cover;
-    margin:3rem;
+
 `
     const GalleryHeadOne = styled.h2`
-   color:#000080;
-    text-align:left;
+    color:#000080;
+    text-align:center;
     font-weight:bold;
-    font-size:2.5rem;
+    font-size:2rem;
     letter-spacing:2px;
     width:100%;
 `
     
     const GalleryParOne = styled.p`
-    color:white;
-    text-align:left;
-    font-size:1.6rem;
-    letter-spacing:2px;
-    width:100%;
+      color:white;
+      text-align:center;
+      font-size:1rem;
+      letter-spacing:2px;
+      width:100%;
 `
     
     const GalleryTwo = styled.div`
-    display:flex;
-    align-items:center;
-    flex-wrap:wrap;
-    justify-content:space-between;
-    flex-direction:row;
-    width:100%;
-    background-color:#000000;
+      display:flex;
+      align-items:center;
+      flex-wrap:wrap;
+      justify-content:center;
+      flex-direction:row;
+      width:100%;
+      background-color:#000000;
+      letter-spacing: 2px;
 `
     
     const GalleryHeadTwo = styled.h2`
-    color:#000080;
-    text-align:left;
-    font-weight:bold;
-    font-size:2.5rem;
-    letter-spacing:2px;
-    width:100%;
+      color:#000080;
+      text-align:center;
+      font-weight:bold;
+      font-size:2rem;
+      letter-spacing:2px;
+      width:100%;
 `
     
     const GalleryParTwo = styled.p`
-    color:white;
-    text-align:left;
-    font-size:1.6rem;
-    letter-spacing:2px;
-    width:100%;
+      color:white;
+      text-align:center;
+      font-size:1rem;
+      letter-spacing:2px;
+      width:100%;
 `
     
     const GalleryThree = styled.div`
-    display:flex;
-    flex-wrap:wrap;
-    align-items:center;
-    justify-content:space-between;
-    flex-direction:row;
-    width:100%;
-    background-color:#000000;
-    letter-spacing: 2px;
+      display:flex;
+      align-items:center;
+      flex-wrap:wrap;
+      justify-content:center;
+      flex-direction:row;
+      width:100%;
+      background-color:#000000;
+      letter-spacing: 2px;
 `
     
     const GalleryHeadThree = styled.h2`
-    color:#000080;
-    text-align:left;
-    font-weight:bold;
-    font-size:2.5rem;
-    letter-spacing:2px;
-    width:100%;
+      color:#000080;
+      text-align:center;
+      font-weight:bold;
+      font-size:2rem;
+      letter-spacing:2px;
+      width:100%;
 `
     
     const GalleryParThree = styled.p`
     color:white;
-    text-align:left;
-    font-size:1.6rem;
+    text-align:center;
+    font-size:1rem;
     letter-spacing:2px;
     width:100%;
 `
@@ -355,7 +306,7 @@ export default Home;
     const GalleryTextSpan = styled.span`
     display:flex;
     flex-direction:column;
-    margin-left:4rem;
+    padding:5rem;
 `
     
     const BottomDiv = styled.div`
@@ -365,6 +316,7 @@ export default Home;
     flex-direction:column;
     background-color:#000080;
     padding:5rem;
+    text-align:center;
 `
     
     const BottomDivHeadings = styled.h2`
