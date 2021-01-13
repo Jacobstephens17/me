@@ -20,12 +20,13 @@
 }
 
 .hamburger{
+  margin-top:5rem;
   background-color: #000080;
   
 }
 
 .buttons{
-  padding:2rem;
+  padding:1rem;
   text-decoration: none;
   font-size: 25px;
   font-weight:300;

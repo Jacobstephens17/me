@@ -5,14 +5,9 @@ import GalleryTwoImg from '../images/tree.JPG'
 import GalleryThreeImg from '../images/leeCanyon.JPG'
 
 
-
-
-
 function Home() {
   
   return (
-    
-    
     <StyledHome>
 
       <TopOfPage>
@@ -148,6 +143,7 @@ export default Home;
     background:url('https://images.unsplash.com/photo-1515563139710-9b2ccf0927c9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2767&q=80') no-repeat center;
     width:100%;
     background-size:cover;
+    height:100vh;
 `
     
     
@@ -262,13 +258,14 @@ export default Home;
     const Gallery = styled.div`
     display:flex;
     flex-direction:column;
+    width:100%;
 `
     
     const GalleryOne = styled.div`
     display:flex;
     align-items:center;
     flex-wrap:wrap;
-    justify-content:space-between;
+    justify-content:center;
     flex-direction:row;
     width:100%;
     background-color:#000000;
@@ -277,21 +274,19 @@ export default Home;
     
     const GalleryImg = styled.img`
     height:auto;
-    width:65%;
+    width:25%;
     background-position:cover;
     border-radius:80px;
-    padding:2rem;
-    padding-top:3rem;
-    padding-bottom:3rem;
     position:cover;
+    margin:3rem;
 `
     const GalleryHeadOne = styled.h2`
-    color:#000080;
+   color:#000080;
     text-align:left;
     font-weight:bold;
     font-size:2.5rem;
     letter-spacing:2px;
-    width:45%;
+    width:100%;
 `
     
     const GalleryParOne = styled.p`
@@ -299,7 +294,7 @@ export default Home;
     text-align:left;
     font-size:1.6rem;
     letter-spacing:2px;
-    width:45%;
+    width:100%;
 `
     
     const GalleryTwo = styled.div`
@@ -318,7 +313,7 @@ export default Home;
     font-weight:bold;
     font-size:2.5rem;
     letter-spacing:2px;
-    width:45%;
+    width:100%;
 `
     
     const GalleryParTwo = styled.p`
@@ -326,7 +321,7 @@ export default Home;
     text-align:left;
     font-size:1.6rem;
     letter-spacing:2px;
-    width:45%;
+    width:100%;
 `
     
     const GalleryThree = styled.div`
@@ -346,7 +341,7 @@ export default Home;
     font-weight:bold;
     font-size:2.5rem;
     letter-spacing:2px;
-    width:45%;
+    width:100%;
 `
     
     const GalleryParThree = styled.p`
@@ -354,7 +349,7 @@ export default Home;
     text-align:left;
     font-size:1.6rem;
     letter-spacing:2px;
-    width:45%;
+    width:100%;
 `
     
     const GalleryTextSpan = styled.span`

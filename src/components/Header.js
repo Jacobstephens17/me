@@ -12,6 +12,7 @@ import Projects from './About'
     return (
 
         <StyledPage>
+
                 <Menu  className='menu'>
                     <Hamburger className='hamburger' >
                         <Link className='buttons' to='/'>HOME</Link>
@@ -19,9 +20,6 @@ import Projects from './About'
                         <Link className='buttons' to='/projects'>PROJECTS</Link>
                     </Hamburger>
                 </Menu>
-            <StyledHeader>
-                <MainHeader>Jacob Stephens</MainHeader>
-            </StyledHeader>
 
             <Switch>
                 <Route exact path="/" component={Home} />
@@ -40,6 +38,9 @@ export default Header;
     const StyledPage = styled.div`
     background-color:black;
     max-width:100%;
+    position:static;
+    display:flex;
+    flex-direction:column;
     `
 
     const Menu = styled.div`
@@ -49,18 +50,7 @@ export default Header;
     flex-wrap:wrap;
     
 `
-    
-    const MainHeader = styled.div`
-    padding:2rem;
-    margin-left:65%;
-    display:flex;
-    font-size: 1rem;
-    color:#000080;
-    font-weight:bold;
-`
 
-    const StyledHeader = styled.div`
-    width:100%;
-    background-color:black;
-   
-    `
+
+
+ 
