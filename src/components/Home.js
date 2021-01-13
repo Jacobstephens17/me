@@ -274,7 +274,7 @@ export default Home;
     
     const GalleryImg = styled.img`
     height:auto;
-    width:75%;
+    width:65%;
     background-position:cover;
     border-radius:80px;
     padding:2rem;
