@@ -146,8 +146,7 @@ export default Home;
     
     const TopOfPage = styled.div`
     background:url('https://images.unsplash.com/photo-1515563139710-9b2ccf0927c9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2767&q=80') no-repeat center;
-    width:auto;
-    padding:13%;
+    width:100%;
     background-size:cover;
 `
     
@@ -155,12 +154,14 @@ export default Home;
     const HeaderOne = styled.h1`
     color:white;
     text-align:center;
-    width:50%;
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
     margin:15rem auto 0rem auto;
-    padding: 2rem 3rem 3rem 3rem;
     background-color:none;
-    font-weight:300;
-    font-size:90px;
+    font-weight:30px;
+    justify-content:center;
+    font-size:70px;
     text-shadow:5px 3px 30px black;
  
 `
@@ -216,6 +217,7 @@ export default Home;
     justify-content:center;
     padding-top:3%;
     padding-bottom:3%;
+    flex-wrap:wrap;
 `
     
     const MidIconOne = styled.button`
@@ -265,6 +267,7 @@ export default Home;
     const GalleryOne = styled.div`
     display:flex;
     align-items:center;
+    flex-wrap:wrap;
     justify-content:space-between;
     flex-direction:row;
     width:100%;
@@ -302,6 +305,7 @@ export default Home;
     const GalleryTwo = styled.div`
     display:flex;
     align-items:center;
+    flex-wrap:wrap;
     justify-content:space-between;
     flex-direction:row;
     width:100%;
@@ -327,6 +331,7 @@ export default Home;
     
     const GalleryThree = styled.div`
     display:flex;
+    flex-wrap:wrap;
     align-items:center;
     justify-content:space-between;
     flex-direction:row;
@@ -424,32 +429,33 @@ export default Home;
     
     const Social = styled.div`
     background-color:#2c333a;
-    padding:6rem;
     display:flex;
+    flex-wrap:wrap;
+    width:100%;
     justify-content:center;
     
 `
     
     const Twitter = styled.button`
     border:white;
-    padding:5rem;
-    margin:5rem;
+    padding:3rem;
+    margin:3rem;
     background:url('https://img.icons8.com/ios/72/twitter--v1.png') no-repeat center;
     background-size:4rem;
 `
     
     const Facebook = styled.button`
     border:white;
-    padding:5rem;
-    margin:5rem;
+    padding:3rem;
+    margin:3rem;
     background:url('https://img.icons8.com/ios/72/facebook-new.png') no-repeat center;
     background-size:4rem;
 `
     
     const Instagram = styled.button`
     border:white;
-    padding:5rem;
-    margin:5rem;
+    padding:3rem;
+    margin:3rem;
     background:url('https://img.icons8.com/ios/72/instagram-new--v1.png') no-repeat center;
     background-size:4rem;
 `
@@ -459,8 +465,8 @@ export default Home;
     
     const Email = styled.button`
     border:white;
-    padding:5rem;
-    margin:5rem;
+    padding:3rem;
+    margin:3rem;
     background:url('https://img.icons8.com/ios/72/email.png') no-repeat center;
     background-size:4rem;
 `

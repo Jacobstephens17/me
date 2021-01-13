@@ -11,16 +11,17 @@ import Projects from './About'
       
     return (
 
-        <div>
-
-            <MainHeader>Jacob Stephens</MainHeader>
-            <Menu  className='menu'>
-                <Hamburger className='hamburger' >
-                    <Link className='buttons' to='/'>HOME</Link>
-                    <Link className='buttons' to='/photography'>PHOTOGRAPHY</Link>
-                    <Link className='buttons' to='/projects'>PROJECTS</Link>
-                </Hamburger>
-            </Menu>
+        <StyledPage>
+                <Menu  className='menu'>
+                    <Hamburger className='hamburger' >
+                        <Link className='buttons' to='/'>HOME</Link>
+                        <Link className='buttons' to='/photography'>PHOTOGRAPHY</Link>
+                        <Link className='buttons' to='/projects'>PROJECTS</Link>
+                    </Hamburger>
+                </Menu>
+            <StyledHeader>
+                <MainHeader>Jacob Stephens</MainHeader>
+            </StyledHeader>
 
             <Switch>
                 <Route exact path="/" component={Home} />
@@ -28,25 +29,39 @@ import Projects from './About'
                 <Route path="/photography" component={Photography} />
             </Switch>
 
-        </div>
+        </StyledPage>
         
     )
 }
 
 export default Header;
     // import styled from 'styled-components';
+
+    const StyledPage = styled.div`
+    background-color:black;
+    max-width:100%;
+    `
+
     const Menu = styled.div`
     text-align:left;
     background:none;
+    display:flex;
+    flex-wrap:wrap;
     
 `
     
     const MainHeader = styled.div`
-    text-align:left;
+    text-align:right;
     padding:2rem;
-    padding-left:85%;
     background-color:#000000;
-    font-size:36px;
+    display:flex;
+    font-size:2rem;
     color:#000080;
     font-weight:bold;
 `
+
+    const StyledHeader = styled.div`
+    display:flex;
+    background-color:black;
+   
+    `
