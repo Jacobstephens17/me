@@ -1,17 +1,10 @@
 import React from 'react';
 import { slide as Hamburger } from "react-burger-menu";
 import styled from 'styled-components';
-import {
-    Link,
-    Route,
-    Switch,
-  } from 'react-router-dom';
+import { Link, Route, Switch } from 'react-router-dom';
 import Home from './Home';
 import Photography from './Photography'
 import Projects from './About'
-import Register from './OwnerRegister';
-import Login from './Login';
-import Dashboard from './Dashboard';
 
 
   const Header = () => {
@@ -33,9 +26,6 @@ import Dashboard from './Dashboard';
                 <Route exact path="/" component={Home} />
                 <Route path="/projects" component={Projects} />
                 <Route path="/photography" component={Photography} />
-                <Route path="/register" component={Register} />
-                <Route path='/login' component={Login} />
-                <Route path='/dashboard' component={Dashboard} />
             </Switch>
 
         </div>
