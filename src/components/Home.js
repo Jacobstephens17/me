@@ -326,11 +326,13 @@ export default Home;
     font-size:2.5rem;
     letter-spacing: 2px;
     color:white;
+    flex-wrap:wrap;
 `
     
     const BottomDivHeading = styled.h2`
     display:flex;
     align-items:center;
+    flex-wrap:wrap;
     justify-content:center;
     font-size:3rem;
     letter-spacing: 2px;
@@ -362,12 +364,17 @@ export default Home;
 `
     
     const BottomDivCard = styled.div`
-    width:25%;
+    width:50%;
     text-align:center;
+    justify-content:center;
     margin:2rem 2rem;
     background-color:#000080;
     border: solid 5px black;
     border-radius:10px;
+    display:flex;
+    flex-direction:column;
+    max-width:50%;
+    flex-wrap:wrap;
 `
     
     
