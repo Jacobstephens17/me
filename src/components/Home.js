@@ -291,7 +291,7 @@ export default Home;
     font-weight:bold;
     font-size:2.5rem;
     letter-spacing:2px;
-    width:100%;
+    width:45%;
 `
     
     const GalleryParOne = styled.p`
@@ -299,7 +299,7 @@ export default Home;
     text-align:left;
     font-size:1.6rem;
     letter-spacing:2px;
-    width:100%;
+    width:45%;
 `
     
     const GalleryTwo = styled.div`
@@ -318,7 +318,7 @@ export default Home;
     font-weight:bold;
     font-size:2.5rem;
     letter-spacing:2px;
-    width:75%;
+    width:45%;
 `
     
     const GalleryParTwo = styled.p`
@@ -326,7 +326,7 @@ export default Home;
     text-align:left;
     font-size:1.6rem;
     letter-spacing:2px;
-    width:75%;
+    width:45%;
 `
     
     const GalleryThree = styled.div`
@@ -346,7 +346,7 @@ export default Home;
     font-weight:bold;
     font-size:2.5rem;
     letter-spacing:2px;
-    width:75%;
+    width:45%;
 `
     
     const GalleryParThree = styled.p`
@@ -354,7 +354,7 @@ export default Home;
     text-align:left;
     font-size:1.6rem;
     letter-spacing:2px;
-    width:75%;
+    width:45%;
 `
     
     const GalleryTextSpan = styled.span`

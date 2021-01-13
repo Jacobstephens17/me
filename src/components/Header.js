@@ -53,6 +53,7 @@ export default Header;
     const MainHeader = styled.div`
     text-align:right;
     padding:2rem;
+    padding-left:6rem;
     background-color:#000000;
     display:flex;
     font-size:2rem;
