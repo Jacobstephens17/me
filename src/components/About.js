@@ -8,11 +8,11 @@ function About (){
 
     return(
 
-        <StyledAbout>
+        <StyledHome>
 
             <TopOfPage>
 
-                <HeaderOne>ABOUT</HeaderOne>  
+                <HeaderOne>PROJECTS</HeaderOne>  
                 <Paragraph>ALIQUAM UT EX UT INTERDUM DONEC AMET IMPERDIET ELEIFEND</Paragraph>
            
             </TopOfPage>
@@ -44,21 +44,17 @@ function About (){
 
             </Social>
 
-        </StyledAbout>
+        </StyledHome>
 
 
     )
 }
 
 export default About;
-    const StyledAbout = styled.div`
-    
-`
-
 
 const StyledHome = styled.div`
-display: flex;
-flex-direction:column;
+    display: flex;
+    flex-direction:column;
 `
 
 const TopOfPage = styled.div`
@@ -130,182 +126,6 @@ margin:auto;
 font-size:18px;
 letter-spacing:2px;
 `
-
-const Gallery = styled.div`
-display:flex;
-flex-direction:column;
-width:100%;
-padding-bottom:4rem;
-`
-
-const GalleryOne = styled.div`
-display:flex;
-align-items:center;
-flex-wrap:wrap;
-justify-content:center;
-flex-direction:row;
-width:100%;
-background-color:#000000;
-letter-spacing: 2px;
-`
-
-const GalleryImg = styled.img`
-height:auto;
-width:100%;
-background-position:cover;
-border-radius:8px;
-border:1px solid #000080;
-position:cover;
-
-`
-const GalleryHeadOne = styled.h2`
-color:#000080;
-text-align:center;
-font-weight:bold;
-font-size:2rem;
-letter-spacing:2px;
-width:100%;
-`
-
-const GalleryParOne = styled.p`
-  color:white;
-  text-align:center;
-  font-size:1rem;
-  letter-spacing:2px;
-  width:100%;
-`
-
-const GalleryTwo = styled.div`
-  display:flex;
-  align-items:center;
-  flex-wrap:wrap;
-  justify-content:center;
-  flex-direction:row;
-  width:100%;
-  background-color:#000000;
-  letter-spacing: 2px;
-`
-
-const GalleryHeadTwo = styled.h2`
-  color:#000080;
-  text-align:center;
-  font-weight:bold;
-  font-size:2rem;
-  letter-spacing:2px;
-  width:100%;
-`
-
-const GalleryParTwo = styled.p`
-  color:white;
-  text-align:center;
-  font-size:1rem;
-  letter-spacing:2px;
-  width:100%;
-`
-
-const GalleryThree = styled.div`
-  display:flex;
-  align-items:center;
-  flex-wrap:wrap;
-  justify-content:center;
-  flex-direction:row;
-  width:100%;
-  background-color:#000000;
-  letter-spacing: 2px;
-`
-
-const GalleryHeadThree = styled.h2`
-  color:#000080;
-  text-align:center;
-  font-weight:bold;
-  font-size:2rem;
-  letter-spacing:2px;
-  width:100%;
-`
-
-const GalleryParThree = styled.p`
-color:white;
-text-align:center;
-font-size:1rem;
-letter-spacing:2px;
-width:100%;
-`
-
-const GalleryTextSpan = styled.span`
-display:flex;
-flex-direction:column;
-padding:5rem;
-`
-
-const BottomDiv = styled.div`
-display:flex;
-align-items:center;
-justify-content:center;
-flex-direction:column;
-background-color:#000080;
-padding:5rem;
-text-align:center;
-`
-
-const BottomDivHeadings = styled.h2`
-display:flex;
-align-items:center;
-justify-content:center;
-font-size:2.5rem;
-letter-spacing: 2px;
-color:white;
-flex-wrap:wrap;
-`
-
-const BottomDivHeading = styled.h2`
-display:flex;
-align-items:center;
-flex-wrap:wrap;
-justify-content:center;
-font-size:3rem;
-letter-spacing: 2px;
-color:white;
-margin-bottom:1rem;
-border-bottom:solid 1px #2c333a;
-width:75%;
-padding-bottom:2rem;
-`
-
-const BottomDivPar = styled.p`
-display:flex;
-align-items:center;
-justify-content:center;
-font-size:1.6rem;
-margin: 2rem auto;
-letter-spacing:2px;
-color:white;
-width:75%;
-`
-
-const BottomDivContent = styled.h2`
-display:flex;
-align-items:center;
-flex-direction:row;
-flex-wrap:wrap;
-letter-spacing: 2px;
-justify-content:center;
-`
-
-const BottomDivCard = styled.div`
-width:50%;
-text-align:center;
-justify-content:center;
-margin:2rem 2rem;
-background-color:#000080;
-border: solid 5px black;
-border-radius:10px;
-display:flex;
-flex-direction:column;
-max-width:50%;
-flex-wrap:wrap;
-`
-
-
 
 
 
