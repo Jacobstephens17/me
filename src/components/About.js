@@ -54,64 +54,290 @@ export default About;
     const StyledAbout = styled.div`
     
 `
+
+
+const StyledHome = styled.div`
+display: flex;
+flex-direction:column;
+`
+
 const TopOfPage = styled.div`
 background:url('https://images.unsplash.com/photo-1515563139710-9b2ccf0927c9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2767&q=80') no-repeat center;
-width:auto;
-padding:15%;
+width:100%;
 background-size:cover;
+height:125vh;
 `
+
+
 const HeaderOne = styled.h1`
 color:white;
 text-align:center;
-width:50%;
-text-shadow:5px 3px 30px black;
+width:100%;
+display:flex;
+flex-wrap:wrap;
 margin:15rem auto 0rem auto;
-padding: 1rem 3rem;
 background-color:none;
-font-weight:300;
-font-size:90px;
+padding-top:12rem;
+font-weight:30px;
+justify-content:center;
+font-size:70px;
+text-shadow:5px 3px 30px black;
+
 `
 
-const Paragraph = styled.p`
+const Paragraph = styled.p` 
 text-align: center;
 color:white;
 padding-top:3rem;
 width:65%;
+padding-bottom:2rem;
 margin: 0 auto;
-font-size:1.5rem;
+font-size:1.8rem;
 letter-spacing:2px;
-text-shadow:5px 3px 30px black;
+text-shadow:5px 3px 20px black;
+
 `
 
-      
+
+
+
+const CenterDiv = styled.div`
+color:black;
+background-color:#000080;
+padding:1.2%;
+padding-bottom:10rem;
+`
+
+const HeaderTwo = styled.h2`
+color:white;
+width:75%;
+margin:auto;
+text-align:center;
+padding-bottom:3rem;
+padding-top:5%;
+border-bottom: solid 1.5px darkgrey;
+font-weight:bold;
+font-size:35px;
+letter-spacing: 2px;
+`
+
+const ParagraphTwo = styled.p`
+padding-top:3rem;
+text-align: center;
+color:white;
+width:75%;
+margin:auto;
+font-size:18px;
+letter-spacing:2px;
+`
+
+const Gallery = styled.div`
+display:flex;
+flex-direction:column;
+width:100%;
+padding-bottom:4rem;
+`
+
+const GalleryOne = styled.div`
+display:flex;
+align-items:center;
+flex-wrap:wrap;
+justify-content:center;
+flex-direction:row;
+width:100%;
+background-color:#000000;
+letter-spacing: 2px;
+`
+
+const GalleryImg = styled.img`
+height:auto;
+width:100%;
+background-position:cover;
+border-radius:8px;
+border:1px solid #000080;
+position:cover;
+
+`
+const GalleryHeadOne = styled.h2`
+color:#000080;
+text-align:center;
+font-weight:bold;
+font-size:2rem;
+letter-spacing:2px;
+width:100%;
+`
+
+const GalleryParOne = styled.p`
+  color:white;
+  text-align:center;
+  font-size:1rem;
+  letter-spacing:2px;
+  width:100%;
+`
+
+const GalleryTwo = styled.div`
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  justify-content:center;
+  flex-direction:row;
+  width:100%;
+  background-color:#000000;
+  letter-spacing: 2px;
+`
+
+const GalleryHeadTwo = styled.h2`
+  color:#000080;
+  text-align:center;
+  font-weight:bold;
+  font-size:2rem;
+  letter-spacing:2px;
+  width:100%;
+`
+
+const GalleryParTwo = styled.p`
+  color:white;
+  text-align:center;
+  font-size:1rem;
+  letter-spacing:2px;
+  width:100%;
+`
+
+const GalleryThree = styled.div`
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  justify-content:center;
+  flex-direction:row;
+  width:100%;
+  background-color:#000000;
+  letter-spacing: 2px;
+`
+
+const GalleryHeadThree = styled.h2`
+  color:#000080;
+  text-align:center;
+  font-weight:bold;
+  font-size:2rem;
+  letter-spacing:2px;
+  width:100%;
+`
+
+const GalleryParThree = styled.p`
+color:white;
+text-align:center;
+font-size:1rem;
+letter-spacing:2px;
+width:100%;
+`
+
+const GalleryTextSpan = styled.span`
+display:flex;
+flex-direction:column;
+padding:5rem;
+`
+
+const BottomDiv = styled.div`
+display:flex;
+align-items:center;
+justify-content:center;
+flex-direction:column;
+background-color:#000080;
+padding:5rem;
+text-align:center;
+`
+
+const BottomDivHeadings = styled.h2`
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:2.5rem;
+letter-spacing: 2px;
+color:white;
+flex-wrap:wrap;
+`
+
+const BottomDivHeading = styled.h2`
+display:flex;
+align-items:center;
+flex-wrap:wrap;
+justify-content:center;
+font-size:3rem;
+letter-spacing: 2px;
+color:white;
+margin-bottom:1rem;
+border-bottom:solid 1px #2c333a;
+width:75%;
+padding-bottom:2rem;
+`
+
+const BottomDivPar = styled.p`
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:1.6rem;
+margin: 2rem auto;
+letter-spacing:2px;
+color:white;
+width:75%;
+`
+
+const BottomDivContent = styled.h2`
+display:flex;
+align-items:center;
+flex-direction:row;
+flex-wrap:wrap;
+letter-spacing: 2px;
+justify-content:center;
+`
+
+const BottomDivCard = styled.div`
+width:50%;
+text-align:center;
+justify-content:center;
+margin:2rem 2rem;
+background-color:#000080;
+border: solid 5px black;
+border-radius:10px;
+display:flex;
+flex-direction:column;
+max-width:50%;
+flex-wrap:wrap;
+`
+
+
+
+
+
 const Social = styled.div`
 background-color:#2c333a;
-padding:6rem;
 display:flex;
+flex-wrap:wrap;
+width:100%;
 justify-content:center;
 
 `
 
 const Twitter = styled.button`
 border:white;
-padding:5rem;
-margin:5rem;
+padding:3rem;
+margin:3rem;
 background:url('https://img.icons8.com/ios/72/twitter--v1.png') no-repeat center;
 background-size:4rem;
 `
 
 const Facebook = styled.button`
 border:white;
-padding:5rem;
-margin:5rem;
+padding:3rem;
+margin:3rem;
 background:url('https://img.icons8.com/ios/72/facebook-new.png') no-repeat center;
 background-size:4rem;
 `
 
 const Instagram = styled.button`
 border:white;
-padding:5rem;
-margin:5rem;
+padding:3rem;
+margin:3rem;
 background:url('https://img.icons8.com/ios/72/instagram-new--v1.png') no-repeat center;
 background-size:4rem;
 `
@@ -121,36 +347,8 @@ background-size:4rem;
 
 const Email = styled.button`
 border:white;
-padding:5rem;
-margin:5rem;
+padding:3rem;
+margin:3rem;
 background:url('https://img.icons8.com/ios/72/email.png') no-repeat center;
 background-size:4rem;
-` 
-    const CenterDiv = styled.div`
-    color:black;
-    background-color:white;
-    padding:3rem;
-`
-    
-    const HeaderTwo = styled.h2`
-    color:black;
-    width:75%;
-    margin:auto;
-    text-align:left;
-    padding-bottom:3rem;
-    padding-top:5%;
-    font-weight:bolder;
-    font-size:25px;
-    letter-spacing: 2px;
-`
-    
-    const ParagraphTwo = styled.p`
-    padding-top:3rem;
-    text-align: left;
-    color:black;
-    width:75%;
-    margin:auto;
-    font-size:18px;
-    letter-spacing:2px;
-    padding-bottom:3rem;
 `
