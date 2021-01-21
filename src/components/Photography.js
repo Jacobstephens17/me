@@ -48,6 +48,8 @@ flex-direction:column;
 const TopOfPage = styled.div`
 background:url('https://images.unsplash.com/photo-1515563139710-9b2ccf0927c9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2767&q=80') no-repeat center;
 width:100%;
+display:flex;
+flex-wrap:wrap;
 background-size:cover;
 height:125vh;
 `
@@ -64,9 +66,9 @@ const HeaderOne = styled.h1`
     padding-top:12rem;
     font-weight:30px;
     justify-content:center;
-    font-size:70px;
+    font-size:60px;
     text-shadow:5px 3px 30px black;
-
+ 
 `
 
 const Paragraph = styled.p` 

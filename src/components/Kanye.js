@@ -38,6 +38,8 @@ export default KanyeQuote;
 const StyledDiv = styled.div`
 display:flex;
 flex-direction:column;
+justify-content:center; 
+align-items:center;
 margin:5rem;
 
 `
@@ -61,9 +63,12 @@ margin-top:2rem;
 const Card = styled.div`
 border:#000080 2px solid;
 border-radius:8px;
-padding:3rem;
-margin:2rem;
+padding:2rem;
 color:white;
+margin-top:2rem;
+display:flex;
+flex-wrap:wrap;
+width:100%; 
 text-align:center;
 font-weight:bolder;
 font-size:2rem;
