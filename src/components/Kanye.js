@@ -24,9 +24,7 @@ const KanyeQuote = () => {
             <P>Click below for a quote from Kanye West</P>
             <Button onClick={handleClick}>Get Quote</Button>
             <Card>
-                "{quote}" 
-                <br/>
-                - Kanye West
+                {`${quote} - Kanye West`}
             </Card>
         </StyledDiv>
     )
@@ -44,27 +42,31 @@ margin:5rem;
 
 `
 const H1 = styled.h1`
-color:white;
+color:#000080;
 text-align:center;
+font-weight:bolder;
 `
 
 const P = styled.p`
-color:white;
+color:#000080;
 text-align:center;
+font-weight:bolder;
 `
 
 const Button = styled.button`
 padding:1rem 1.5rem;
-border-radius:8px;
 font-size:1rem;
+color: #000080;
 font-weight:bolder;
+border:2px solid #000080;
+border-radius:8px;
+background:none;
 margin-top:2rem;
 `
 const Card = styled.div`
-border:#000080 2px solid;
 border-radius:8px;
 padding:2rem;
-color:white;
+color:#000080;
 margin-top:2rem;
 display:flex;
 flex-wrap:wrap;

@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import GalleryOneImg from '../images/mom.JPG'
 import GalleryTwoImg from '../images/tree.JPG'
 import GalleryThreeImg from '../images/leeCanyon.JPG'
+import KanyeQuote from './Kanye'
 
 
 function Home() {
@@ -107,7 +108,7 @@ function Home() {
         </BottomDivContent>
 
       </BottomDiv>
-
+      <KanyeQuote/>
       <Social>
         <Twitter/>
         <Facebook/>
@@ -327,6 +328,7 @@ export default Home;
     letter-spacing: 2px;
     color:white;
     flex-wrap:wrap;
+    text-align:center; 
 `
     
     const BottomDivHeading = styled.h2`
@@ -337,6 +339,7 @@ export default Home;
     font-size:3rem;
     letter-spacing: 2px;
     color:white;
+    text-align:center;
     margin-bottom:1rem;
     border-bottom:solid 1px #2c333a;
     width:75%;
