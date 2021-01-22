@@ -11,7 +11,7 @@ const KanyeQuote = () => {
         axios
             .get('https://api.kanye.rest')
             .then((res) => {
-                console.log(res.data.quote);
+                console.log(res);
                 setQuote(res.data.quote)
             })
     }
@@ -24,7 +24,7 @@ const KanyeQuote = () => {
             <P>Click below for a quote from Kanye West</P>
             <Button onClick={handleClick}>Get Quote</Button>
             <Card>
-                {`${quote} - Kanye West`}
+                {`${quote} -Kanye West`}
             </Card>
         </StyledDiv>
     )
