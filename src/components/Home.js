@@ -417,7 +417,6 @@ export default Home;
     background-size:4rem;
 `
     
-
     
     
     const Email = styled.button`
@@ -427,3 +426,4 @@ export default Home;
     background:url('https://img.icons8.com/ios/72/email.png') no-repeat center;
     background-size:4rem;
 `
+
