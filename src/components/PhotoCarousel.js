@@ -6,6 +6,9 @@ import '../App.css'
 
 const PhotoCarousel = () => {
     const [galleryImages, setGalleryImages] = useState();
+
+    const getImages = () => {
+
         axios 
             .get('https://api.unsplash.com/photos/random/?client_id=3CUtCSs0mCAULF3oD1B4jp4tb5MtBk3MOSsK-TZZ1_Q')
             .then((res) => {
@@ -14,6 +17,8 @@ const PhotoCarousel = () => {
             .catch((err) => {
                 console.log(err)
             })
+
+    }
 
 
     return (
