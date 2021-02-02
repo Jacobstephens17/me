@@ -324,7 +324,7 @@ export default Home;
     display:flex;
     align-items:center;
     justify-content:center;
-    font-size:2.5rem;
+    font-size:1rem;
     letter-spacing: 2px;
     color:white;
     flex-wrap:wrap;
@@ -336,7 +336,7 @@ export default Home;
     align-items:center;
     flex-wrap:wrap;
     justify-content:center;
-    font-size:3rem;
+    font-size:2rem;
     letter-spacing: 2px;
     color:white;
     text-align:center;
@@ -367,7 +367,7 @@ export default Home;
 `
     
     const BottomDivCard = styled.div`
-    width:50%;
+    min-width:60%;
     text-align:center;
     justify-content:center;
     margin:2rem 2rem;
