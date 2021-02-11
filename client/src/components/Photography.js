@@ -23,7 +23,7 @@ function Photography (){
             </TopOfPage>
 
             
-            <PhotoAPI>Photo API = {photos}</PhotoAPI>
+            <PhotoAPI>Photo API = {photos}, Awaiting photos...</PhotoAPI>
 
             <CenterDiv>
                 <HeaderTwo>LOREM IPSUM DOLOR SIT AMET</HeaderTwo>
