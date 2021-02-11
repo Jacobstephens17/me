@@ -23,7 +23,7 @@ function Photography (){
             </TopOfPage>
 
             
-            <PhotoAPI>Photo API = {photos}, Awaiting photos...</PhotoAPI>
+            <PhotoAPI>Photo API = {photos}, but empty. Waiting for Jacob to build personal photo api...</PhotoAPI>
 
             <CenterDiv>
                 <HeaderTwo>LOREM IPSUM DOLOR SIT AMET</HeaderTwo>
@@ -94,8 +94,10 @@ text-shadow:5px 3px 20px black;
 
 const PhotoAPI = styled.div`
 padding:3rem;
+display:flex;
+flex-wrap:wrap;
 height:2rem;
-width:100%;
+width:auto;
 color:white;
 `
 
