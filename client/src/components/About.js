@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-
+import ContactInfo from './ContactInfo'
 
 function About (){
     
@@ -33,15 +33,7 @@ function About (){
            
             </CenterDiv>
 
-            <Social>
-
-                <Twitter/>
-                <Facebook/>
-                <Instagram/>
-                <Email/>
-
-            </Social>
-
+            <ContactInfo/>
         </StyledHome>
 
 
@@ -92,9 +84,6 @@ text-shadow:5px 3px 20px black;
 
 `
 
-
-
-
 const CenterDiv = styled.div`
 color:black;
 background-color:#000080;
@@ -125,48 +114,3 @@ font-size:18px;
 letter-spacing:2px;
 `
 
-
-
-const Social = styled.div`
-background-color:#2c333a;
-display:flex;
-flex-wrap:wrap;
-width:100%;
-justify-content:center;
-
-`
-
-const Twitter = styled.button`
-border:white;
-padding:3rem;
-margin:3rem;
-background:url('https://img.icons8.com/ios/72/twitter--v1.png') no-repeat center;
-background-size:4rem;
-`
-
-const Facebook = styled.button`
-border:white;
-padding:3rem;
-margin:3rem;
-background:url('https://img.icons8.com/ios/72/facebook-new.png') no-repeat center;
-background-size:4rem;
-`
-
-const Instagram = styled.button`
-border:white;
-padding:3rem;
-margin:3rem;
-background:url('https://img.icons8.com/ios/72/instagram-new--v1.png') no-repeat center;
-background-size:4rem;
-`
-
-
-
-
-const Email = styled.button`
-border:white;
-padding:3rem;
-margin:3rem;
-background:url('https://img.icons8.com/ios/72/email.png') no-repeat center;
-background-size:4rem;
-`

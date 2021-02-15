@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import PhotoCarousel from './PhotoCarousel'
+import ContactInfo from './ContactInfo'
+
+
 
 function url(path){
     return process.env.NODE_ENV === "development" ? `http://localhost:1234${path}` : path
@@ -32,12 +35,7 @@ function Photography (){
 
             <PhotoCarousel/>
             
-            <Social>
-                <Twitter/>
-                <Facebook/>
-                <Instagram/>
-                <Email/>
-            </Social>
+          <ContactInfo/>
 
 
         </StyledHome>
@@ -131,48 +129,4 @@ width:75%;
 margin:auto;
 font-size:18px;
 letter-spacing:2px;
-`
-
-const Social = styled.div`
-background-color:#2c333a;
-display:flex;
-flex-wrap:wrap;
-width:100%;
-justify-content:center;
-
-`
-
-const Twitter = styled.button`
-border:white;
-padding:3rem;
-margin:3rem;
-background:url('https://img.icons8.com/ios/72/twitter--v1.png') no-repeat center;
-background-size:4rem;
-`
-
-const Facebook = styled.button`
-border:white;
-padding:3rem;
-margin:3rem;
-background:url('https://img.icons8.com/ios/72/facebook-new.png') no-repeat center;
-background-size:4rem;
-`
-
-const Instagram = styled.button`
-border:white;
-padding:3rem;
-margin:3rem;
-background:url('https://img.icons8.com/ios/72/instagram-new--v1.png') no-repeat center;
-background-size:4rem;
-`
-
-
-
-
-const Email = styled.button`
-border:white;
-padding:3rem;
-margin:3rem;
-background:url('https://img.icons8.com/ios/72/email.png') no-repeat center;
-background-size:4rem;
 `
