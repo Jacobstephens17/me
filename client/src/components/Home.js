@@ -112,10 +112,10 @@ function Home() {
 
       <Social>
 
-        <Instagram/>
-        <Facebook/>
-        <Twitter/>
-        <Email/>
+        <Instagram href="https://www.instagram.com/jacobstephens_/"/>
+        <LinkedIn href="https://www.linkedin.com/in/jacobstephens17/"/>
+        <GitHub href='https://github.com/Jacobstephens17'/>
+        <Email href='mailto:jacobstephens.work@gmail.com'/>
 
       </Social>
       
@@ -173,17 +173,16 @@ const Paragraph = styled.p`
 const CenterDiv = styled.div`
   color:black;
   background-color:#000080;
-  padding:1.2%;
-  padding-bottom:10rem;
+  padding:4rem 2rem;
+
 `
     
 const HeaderTwo = styled.h2`
   color:white;
   width:75%;
-  margin:auto;
+  margin: 0 auto;
   text-align:center;
   padding-bottom:3rem;
-  padding-top:5%;
   border-bottom: solid 1.5px darkgrey;
   font-weight:bold;
   font-size:35px;
@@ -386,23 +385,23 @@ const Social = styled.div`
     
 `
     
-const Twitter = styled.button`
+const GitHub = styled.a`
   border:white;
   padding:3rem;
   margin:3rem;
-  background:url('https://img.icons8.com/ios/72/twitter--v1.png') no-repeat center;
+  background:url('https://img.icons8.com/material-sharp/344/github.png') no-repeat center;
   background-size:4rem;
 `
     
-const Facebook = styled.button`
+const LinkedIn = styled.a`
   border:white;
   padding:3rem;
   margin:3rem;
-  background:url('https://img.icons8.com/ios/72/facebook-new.png') no-repeat center;
+  background:url('https://www.flaticon.com/svg/vstatic/svg/2111/2111532.svg?token=exp=1613375875~hmac=2b3c8f3f67cc9451573a724cfbcab991') no-repeat center;
   background-size:4rem;
 `
     
-const Instagram = styled.button`
+const Instagram = styled.a`
   border:white;
   padding:3rem;
   margin:3rem;
@@ -410,7 +409,7 @@ const Instagram = styled.button`
   background-size:4rem;
 `
     
-const Email = styled.button`
+const Email = styled.a`
   border:white;
   padding:3rem;
   margin:3rem;
