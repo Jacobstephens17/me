@@ -37,10 +37,6 @@ const Skills = ()=> {
                 </Card>
 
                 <Card>
-                    <Content>CSS</Content>
-                </Card>
-
-                <Card>
                     <Content>Ant Design</Content>
                 </Card>
 

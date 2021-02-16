@@ -58,9 +58,9 @@ function Home() {
 
       </Gallery>
 
-      <Skills/>
-
       <KanyeQuote/>
+
+      <Skills/>
 
       <ContactInfo/>
 
@@ -140,7 +140,7 @@ const ParagraphTwo = styled.p`
   text-align: center;
   color:white;
   width:75%;
-  margin:auto;
+  margin:0 auto;
   font-size:18px;
   letter-spacing:2px;
 `
@@ -149,7 +149,6 @@ const Gallery = styled.div`
   display:flex;
   flex-direction:column;
   width:100%;
-  padding-bottom:4rem;
 `
     
 const GalleryOne = styled.div`
@@ -158,26 +157,28 @@ const GalleryOne = styled.div`
   flex-wrap:wrap;
   justify-content:center;
   flex-direction:row;
-  width:100%;
-  background-color:#000000;
+  max-width:100%;
+  background-color:#000080;
   letter-spacing: 2px;
+  padding:2rem;
 `
     
 const GalleryImg = styled.img`
   height:auto;
   width:100%;
   background-position:cover;
-  border-radius:8px;
-  border:1px solid #000080;
+  border-radius:16px;
   position:cover;
+  padding-top:3rem;
 
 `
 
 const GalleryHeadOne = styled.h2`
-  color:#000080;
+  color:black;
   text-align:center;
   font-weight:bold;
   font-size:2rem;
+  margin:0 auto;
   letter-spacing:2px;
   width:100%;
 `
@@ -188,6 +189,8 @@ const GalleryParOne = styled.p`
   font-size:1rem;
   letter-spacing:2px;
   width:100%;
+  margin:0 auto;
+
 `
     
 const GalleryTwo = styled.div`
@@ -196,9 +199,10 @@ const GalleryTwo = styled.div`
   flex-wrap:wrap;
   justify-content:center;
   flex-direction:row;
-  width:100%;
+  max-width:100%;
   background-color:#000000;
   letter-spacing: 2px;
+  padding:2rem;
 `
     
 const GalleryHeadTwo = styled.h2`
@@ -208,6 +212,8 @@ const GalleryHeadTwo = styled.h2`
   font-size:2rem;
   letter-spacing:2px;
   width:100%;
+  margin:0 auto;
+
 `
     
 const GalleryParTwo = styled.p`
@@ -216,6 +222,8 @@ const GalleryParTwo = styled.p`
   font-size:1rem;
   letter-spacing:2px;
   width:100%;
+  margin:0 auto;
+
 `
     
 const GalleryThree = styled.div`
@@ -224,18 +232,21 @@ const GalleryThree = styled.div`
   flex-wrap:wrap;
   justify-content:center;
   flex-direction:row;
-  width:100%;
-  background-color:#000000;
+  max-width:100%;
+  background-color:#000080;
   letter-spacing: 2px;
+  padding:2rem;
 `
     
 const GalleryHeadThree = styled.h2`
-  color:#000080;
+  color:black;
   text-align:center;
   font-weight:bold;
   font-size:2rem;
   letter-spacing:2px;
   width:100%;
+  margin:0 auto;
+
 `
     
 const GalleryParThree = styled.p`
@@ -244,6 +255,8 @@ const GalleryParThree = styled.p`
   font-size:1rem;
   letter-spacing:2px;
   width:100%;
+  margin:0 auto;
+
 `
     
 const GalleryTextSpan = styled.span`
@@ -251,74 +264,4 @@ const GalleryTextSpan = styled.span`
   flex-direction:column;
   padding:5rem;
 `
-    
-const BottomDiv = styled.div`
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  flex-direction:column;
-  background-color:#000080;
-  padding:5rem;
-  text-align:center;
-`
-    
-const BottomDivHeadings = styled.h2`
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  font-size:1rem;
-  letter-spacing: 2px;
-  color:white;
-  flex-wrap:wrap;
-  text-align:center; 
-`
-    
-const BottomDivHeading = styled.h2`
-  display:flex;
-  align-items:center;
-  flex-wrap:wrap;
-  justify-content:center;
-  font-size:2rem;
-  letter-spacing: 2px;
-  color:white;
-  text-align:center;
-  margin-bottom:1rem;
-  border-bottom:solid 1px #2c333a;
-  width:75%;
-  padding-bottom:2rem;
-`
-    
-const BottomDivPar = styled.p`
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  font-size:1.6rem;
-  margin: 2rem auto;
-  letter-spacing:2px;
-  color:white;
-  width:75%;
-`
-    
-const BottomDivContent = styled.h2`
-  display:flex;
-  align-items:center;
-  flex-direction:row;
-  flex-wrap:wrap;
-  letter-spacing: 2px;
-  justify-content:center;
-`
-    
-const BottomDivCard = styled.div`
-  min-width:60%;
-  text-align:center;
-  justify-content:center;
-  margin:2rem 2rem;
-  background-color:#000080;
-  border: solid 5px black;
-  border-radius:10px;
-  display:flex;
-  flex-direction:column;
-  max-width:50%;
-  flex-wrap:wrap;
-`
-  
+   
