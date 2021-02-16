@@ -148,7 +148,7 @@ const ParagraphTwo = styled.p`
 const Gallery = styled.div`
   display:flex;
   flex-direction:column;
-  width:100%;
+  max-width:100%;
 `
     
 const GalleryOne = styled.div`
@@ -188,7 +188,7 @@ const GalleryParOne = styled.p`
   font-size:1rem;
   letter-spacing:2px;
   width:100%;
-  margin:0 auto;
+
 
 `
     
@@ -262,5 +262,6 @@ const GalleryTextSpan = styled.span`
   display:flex;
   flex-direction:column;
   padding:5rem;
+  width:100%;
 `
    

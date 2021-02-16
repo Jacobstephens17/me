@@ -46,17 +46,17 @@ export default Photography;
 
 
 const StyledHome = styled.div`
-display: flex;
-flex-direction:column;
+    display: flex;
+    flex-direction:column;
 `
 
 const TopOfPage = styled.div`
-background:url('https://images.unsplash.com/photo-1515563139710-9b2ccf0927c9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2767&q=80') no-repeat center;
-width:100%;
-display:flex;
-flex-wrap:wrap;
-background-size:cover;
-height:125vh;
+    background:url('https://images.unsplash.com/photo-1515563139710-9b2ccf0927c9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2767&q=80') no-repeat center;
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    background-size:cover;
+    height:125vh;
 `
 
 
@@ -77,41 +77,41 @@ const HeaderOne = styled.h1`
 `
 
 const Paragraph = styled.p` 
-text-align: center;
-color:white;
-padding-top:3rem;
-width:65%;
-padding-bottom:2rem;
-margin: 0 auto;
-font-size:1.8rem;
-letter-spacing:2px;
-text-shadow:5px 3px 20px black;
+    text-align: center;
+    color:white;
+    padding-top:3rem;
+    width:65%;
+    padding-bottom:2rem;
+    margin: 0 auto;
+    font-size:1.8rem;
+    letter-spacing:2px;
+    text-shadow:5px 3px 20px black;
 
 `
 
 const PhotoAPI = styled.div`
-padding:3rem;
-display:flex;
-flex-wrap:wrap;
-height:2rem;
-width:auto;
-color:white;
+    padding:3rem;
+    display:flex;
+    flex-wrap:wrap;
+    height:2rem;
+    width:auto;
+    color:white;
 `
 
 
 
 const CenterDiv = styled.div`
-color:black;
-background-color:#000080;
-padding:4rem;
+    color:black;
+    background-color:#000080;
+    padding:4rem;
 `
 
 const HeaderTwo = styled.h2`
-color:white;
-width:75%;
-margin:auto;
-text-align:center;
-font-weight:bold;
-font-size:25px;
-letter-spacing: 2px;
+    color:white;
+    width:75%;
+    margin:auto;
+    text-align:center;
+    font-weight:bold;
+    font-size:25px;
+    letter-spacing: 2px;
 `
