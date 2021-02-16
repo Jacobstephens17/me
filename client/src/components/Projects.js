@@ -20,7 +20,7 @@ function Projects (){
             <CenterDiv>
 
                 <HeaderTwo>LINKS</HeaderTwo>
-                <h1>Coming soon...</h1>
+                <H1>Coming soon...</H1>
            
             </CenterDiv>
 
@@ -45,6 +45,9 @@ background-size:cover;
 height:125vh;
 `
 
+const H1 = styled.h1`
+    text-align:center;
+`
 
 const HeaderOne = styled.h1`
 color:white;
@@ -65,9 +68,7 @@ text-shadow:5px 3px 30px black;
 const Paragraph = styled.p` 
 text-align: center;
 color:white;
-padding-top:3rem;
 width:65%;
-padding-bottom:2rem;
 margin: 0 auto;
 font-size:1.3rem;
 letter-spacing:2px;
@@ -78,8 +79,7 @@ text-shadow:5px 3px 20px black;
 const CenterDiv = styled.div`
 color:black;
 background-color:#000080;
-padding:1.2%;
-padding-bottom:10rem;
+padding:3%;
 `
 
 const HeaderTwo = styled.h2`
@@ -87,21 +87,8 @@ color:white;
 width:75%;
 margin:auto;
 text-align:center;
-padding-bottom:3rem;
-padding-top:5%;
 border-bottom: solid 1.5px darkgrey;
 font-weight:bold;
 font-size:35px;
 letter-spacing: 2px;
 `
-
-const ParagraphTwo = styled.p`
-padding-top:3rem;
-text-align: center;
-color:white;
-width:75%;
-margin:auto;
-font-size:18px;
-letter-spacing:2px;
-`
-
