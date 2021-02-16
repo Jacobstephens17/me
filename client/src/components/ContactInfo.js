@@ -1,4 +1,4 @@
-import react from 'react'
+import React from 'react'
 import styled from 'styled-components'
 
 const ContactInfo = () => {
@@ -39,7 +39,7 @@ const LinkedIn = styled.a`
   border:white;
   padding:3rem;
   margin:3rem;
-  background:url('https://www.flaticon.com/svg/vstatic/svg/2111/2111532.svg?token=exp=1613442612~hmac=dd0f819f88162bb024bdf0333b94ae34') no-repeat center;
+  background:url('https://www.freepnglogos.com/uploads/linkedin-logo-black-png-12.png') no-repeat center;
   background-size:4rem;
 `
     
