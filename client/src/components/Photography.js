@@ -29,8 +29,7 @@ function Photography (){
             <PhotoAPI>Photo API = {photos}, but empty. Waiting for Jacob to build personal photo api...</PhotoAPI>
 
             <CenterDiv>
-                <HeaderTwo>LOREM IPSUM DOLOR SIT AMET</HeaderTwo>
-                <ParagraphTwo>laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</ParagraphTwo>
+                <HeaderTwo>“Taking pictures is savoring life intensely, every hundredth of a second.” <br/> -Marc Riboud</HeaderTwo>
             </CenterDiv>
 
             <PhotoCarousel/>
@@ -104,8 +103,7 @@ color:white;
 const CenterDiv = styled.div`
 color:black;
 background-color:#000080;
-padding:1.2%;
-padding-bottom:10rem;
+padding:4rem;
 `
 
 const HeaderTwo = styled.h2`
@@ -113,20 +111,7 @@ color:white;
 width:75%;
 margin:auto;
 text-align:center;
-padding-bottom:3rem;
-padding-top:5%;
-border-bottom: solid 1.5px darkgrey;
 font-weight:bold;
-font-size:35px;
+font-size:25px;
 letter-spacing: 2px;
-`
-
-const ParagraphTwo = styled.p`
-padding-top:3rem;
-text-align: center;
-color:white;
-width:75%;
-margin:auto;
-font-size:18px;
-letter-spacing:2px;
 `
