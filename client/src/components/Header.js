@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { Link, Route, Switch } from 'react-router-dom';
 import Home from './Home';
 import Photography from './Photography'
-import Projects from './About'
+import Projects from './Projects'
 
 
   const Header = () => {
