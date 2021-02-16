@@ -167,7 +167,6 @@ const GalleryImg = styled.img`
   height:auto;
   width:100%;
   background-position:cover;
-  border-radius:16px;
   position:cover;
   padding-top:3rem;
 
