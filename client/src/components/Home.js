@@ -117,8 +117,8 @@ const Paragraph = styled.p`
     
 `
 const CenterDiv = styled.div`
-  color:black;
-  background-color:#000080;
+  color:white;
+  background-color:black;
   padding:4rem 2rem;
 
 `
