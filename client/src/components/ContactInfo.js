@@ -6,8 +6,8 @@ const ContactInfo = () => {
     return(
         <Social>
             <Instagram href="https://www.instagram.com/jacobstephens_/"/>
-            <LinkedIn href="https://www.linkedin.com/in/jacobstephens17/"/>
             <GitHub href='https://github.com/Jacobstephens17'/>
+            <LinkedIn href="https://www.linkedin.com/in/jacobstephens17/"/>
             <Email href='mailto:jacobstephens.work@gmail.com'/>
         </Social>
         )
