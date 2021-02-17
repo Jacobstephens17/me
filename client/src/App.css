@@ -3,7 +3,6 @@
 }
 
 
-
 /* Position and sizing of burger button */
 .bm-burger-button {
   position: fixed;
@@ -18,11 +17,15 @@
 .bm-burger-bars {
   background:#000080;
   box-shadow: 0px 1px 4px black;
+  border:none;
 }
 
 .hamburger{
   margin-top:5rem;
-  background-color: #000080;
+  text-decoration:none;
+  border:none;
+  margin-left:4rem;
+
 
 }
 
@@ -30,8 +33,14 @@
   padding:1rem;
   text-decoration: none;
   font-size: 25px;
-  font-weight:300;
+  font-weight:bold;
+  opacity: 45%;
+  border:none;
   color:white;
+  text-align: center;
+  border:2px solid white;
+  border-radius: 8px;
+  width:60%;
 }
 
 

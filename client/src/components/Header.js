@@ -8,7 +8,7 @@ import Projects from './Projects'
 
 
   const Header = () => {
-      
+
     return (
 
         <StyledPage>
@@ -28,7 +28,7 @@ import Projects from './Projects'
             </Switch>
 
         </StyledPage>
-        
+
     )
 }
 
@@ -36,21 +36,10 @@ export default Header;
     // import styled from 'styled-components';
 
     const StyledPage = styled.div`
-    background-color:black;
-    max-width:100%;
-    position:static;
-    display:flex;
-    flex-direction:column;
+
     `
 
     const Menu = styled.div`
-    text-align:left;
-    background:none;
-    display:flex;
-    flex-wrap:wrap;
-    
+  
+
 `
-
-
-
- 
