@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import ContactInfo from './ContactInfo'
 
 function Projects (){
-    
+
 
     return(
 
@@ -11,9 +11,9 @@ function Projects (){
 
             <TopOfPage>
 
-                <HeaderOne>PROJECTS</HeaderOne>  
+                <HeaderOne>PROJECTS</HeaderOne>
                 <Paragraph>HERE ARE SOME LINKS TO RECENTLY COMPLETED PROJECTS</Paragraph>
-           
+
             </TopOfPage>
 
 
@@ -24,7 +24,7 @@ function Projects (){
 
                 <Bubbles href="https://web-sprint-challenge-advanced-web-applications-foue3lnic.vercel.app/">Bubbles Page</Bubbles>
                 <p>This project was focused on user authentication using localstorage tokens</p>
-           
+
             </CenterDiv>
 
             <ContactInfo/>
@@ -39,6 +39,9 @@ export default Projects;
 const StyledHome = styled.div`
     display: flex;
     flex-direction:column;
+    min-width:375px;
+    widht:100%;
+    height:85rem;
 `
 
 const TopOfPage = styled.div`
@@ -60,15 +63,16 @@ const HeaderOne = styled.h1`
     flex-wrap:wrap;
     margin:15rem auto 0rem auto;
     background-color:none;
-    padding-top:12rem;
+    padding-top:15rem;
     font-weight:30px;
+    padding-bottom:3rem;
     justify-content:center;
     font-size:70px;
     text-shadow:5px 3px 30px black;
 
 `
 
-const Paragraph = styled.p` 
+const Paragraph = styled.p`
     text-align: center;
     color:white;
     width:65%;

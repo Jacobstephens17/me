@@ -26,7 +26,7 @@ function Photography (){
             </TopOfPage>
 
 
-            // <PhotoAPI>Photo API = {photos}, but empty. Waiting for Jacob to build personal photo api...</PhotoAPI>
+          <PhotoAPI>Photo API = {photos}, but empty. Waiting for Jacob to build personal photo api...</PhotoAPI>
 
             <CenterDiv>
                 <HeaderTwo>“Taking pictures is savoring life intensely, every hundredth of a second.” <br/> -Marc Riboud</HeaderTwo>
@@ -48,6 +48,10 @@ export default Photography;
 const StyledHome = styled.div`
     display: flex;
     flex-direction:column;
+    max-width:100%;
+    min-width:375px;
+    width:100%;
+    height:85rem;
 `
 
 const TopOfPage = styled.div`
@@ -56,22 +60,22 @@ const TopOfPage = styled.div`
     display:flex;
     flex-wrap:wrap;
     background-size:cover;
-    height:125vh;
+    height:100%;
 `
 
 
 const HeaderOne = styled.h1`
     color:white;
     text-align:center;
-    width:100%;
+    width:85%;
     display:flex;
     flex-wrap:wrap;
     margin:15rem auto 0rem auto;
     background-color:none;
-    padding-top:12rem;
+    padding-top:17rem;
     font-weight:30px;
     justify-content:center;
-    font-size:60px;
+    font-size:50px;
     text-shadow:5px 3px 30px black;
 
 `
@@ -79,9 +83,8 @@ const HeaderOne = styled.h1`
 const Paragraph = styled.p`
     text-align: center;
     color:white;
-    padding-top:3rem;
     width:65%;
-    padding-bottom:2rem;
+    padding-bottom:10rem;
     margin: 0 auto;
     font-size:1.8rem;
     letter-spacing:2px;
@@ -90,12 +93,14 @@ const Paragraph = styled.p`
 `
 
 const PhotoAPI = styled.div`
-    padding:3rem;
     display:flex;
     flex-wrap:wrap;
     height:2rem;
-    width:auto;
     color:white;
+    min-width:375px;
+    padding-top:2rem;
+    padding-bottom:2rem;
+
 `
 
 
