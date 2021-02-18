@@ -26,7 +26,7 @@ function Photography (){
             </TopOfPage>
 
 
-            <PhotoAPI>Photo API = {photos}, but empty. Waiting for Jacob to build personal photo api...</PhotoAPI>
+            // <PhotoAPI>Photo API = {photos}, but empty. Waiting for Jacob to build personal photo api...</PhotoAPI>
 
             <CenterDiv>
                 <HeaderTwo>“Taking pictures is savoring life intensely, every hundredth of a second.” <br/> -Marc Riboud</HeaderTwo>
@@ -76,19 +76,7 @@ const HeaderOne = styled.h1`
 
 `
 
-<<<<<<< HEAD
 const Paragraph = styled.p`
-text-align: center;
-color:white;
-padding-top:3rem;
-width:65%;
-padding-bottom:2rem;
-margin: 0 auto;
-font-size:1.8rem;
-letter-spacing:2px;
-text-shadow:5px 3px 20px black;
-=======
-const Paragraph = styled.p` 
     text-align: center;
     color:white;
     padding-top:3rem;
@@ -98,7 +86,6 @@ const Paragraph = styled.p`
     font-size:1.8rem;
     letter-spacing:2px;
     text-shadow:5px 3px 20px black;
->>>>>>> aeb4ffc73a3858645d4762f4200cfce7bd1d88bd
 
 `
 
