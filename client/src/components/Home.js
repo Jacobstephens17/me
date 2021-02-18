@@ -13,7 +13,7 @@ function Home() {
     <StyledHome>
 
       <TopOfPage>
-        <HeaderOne>Jacob Stephens</HeaderOne>  
+        <HeaderOne>Jacob Stephens</HeaderOne>
         <Paragraph>Resume Website</Paragraph>
       </TopOfPage>
 
@@ -45,7 +45,7 @@ function Home() {
             <GalleryParTwo>Nature inspires my eye for natural, simplified beauty in all things</GalleryParTwo>
           </GalleryTextSpan>
         </GalleryTwo>
-      
+
 
 
         <GalleryThree>
@@ -64,7 +64,7 @@ function Home() {
 
       <ContactInfo/>
 
-      
+
     </StyledHome>
 
   );
@@ -80,15 +80,17 @@ export default Home;
 const StyledHome = styled.div`
   display: flex;
   flex-direction:column;
+  min-width:370px;
 `
-    
+
 const TopOfPage = styled.div`
   background:url('https://images.unsplash.com/photo-1515563139710-9b2ccf0927c9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2767&q=80') no-repeat center;
-  width:100%;
+  max-width:100%;
   background-size:cover;
-  height:125vh;
+  padding-bottom:8rem;
+  height:100%;
 `
-    
+
 const HeaderOne = styled.h1`
   color:white;
   text-align:center;
@@ -103,8 +105,8 @@ const HeaderOne = styled.h1`
   font-size:70px;
   text-shadow:5px 3px 30px black;
 `
-    
-const Paragraph = styled.p` 
+
+const Paragraph = styled.p`
   text-align: center;
   color:white;
   padding-top:3rem;
@@ -114,7 +116,7 @@ const Paragraph = styled.p`
   font-size:1.8rem;
   letter-spacing:2px;
   text-shadow:5px 3px 20px black;
-    
+
 `
 const CenterDiv = styled.div`
   color:white;
@@ -122,7 +124,7 @@ const CenterDiv = styled.div`
   padding:4rem 2rem;
 
 `
-    
+
 const HeaderTwo = styled.h2`
   color:white;
   width:75%;
@@ -134,7 +136,7 @@ const HeaderTwo = styled.h2`
   font-size:35px;
   letter-spacing: 2px;
 `
-    
+
 const ParagraphTwo = styled.p`
   padding-top:3rem;
   text-align: center;
@@ -144,13 +146,13 @@ const ParagraphTwo = styled.p`
   font-size:18px;
   letter-spacing:2px;
 `
-    
+
 const Gallery = styled.div`
   display:flex;
   flex-direction:column;
   width:100%;
 `
-    
+
 const GalleryOne = styled.div`
   display:flex;
   align-items:center;
@@ -162,7 +164,7 @@ const GalleryOne = styled.div`
   letter-spacing: 2px;
   padding:2rem;
 `
-    
+
 const GalleryImg = styled.img`
   height:auto;
   width:100%;
@@ -191,7 +193,7 @@ const GalleryParOne = styled.p`
   margin:0 auto;
 
 `
-    
+
 const GalleryTwo = styled.div`
   display:flex;
   align-items:center;
@@ -203,7 +205,7 @@ const GalleryTwo = styled.div`
   letter-spacing: 2px;
   padding:2rem;
 `
-    
+
 const GalleryHeadTwo = styled.h2`
   color:#000080;
   text-align:center;
@@ -214,7 +216,7 @@ const GalleryHeadTwo = styled.h2`
   margin:0 auto;
 
 `
-    
+
 const GalleryParTwo = styled.p`
   color:white;
   text-align:center;
@@ -224,7 +226,7 @@ const GalleryParTwo = styled.p`
   margin:0 auto;
 
 `
-    
+
 const GalleryThree = styled.div`
   display:flex;
   align-items:center;
@@ -236,7 +238,7 @@ const GalleryThree = styled.div`
   letter-spacing: 2px;
   padding:2rem;
 `
-    
+
 const GalleryHeadThree = styled.h2`
   color:black;
   text-align:center;
@@ -247,7 +249,7 @@ const GalleryHeadThree = styled.h2`
   margin:0 auto;
 
 `
-    
+
 const GalleryParThree = styled.p`
   color:white;
   text-align:center;
@@ -257,10 +259,9 @@ const GalleryParThree = styled.p`
   margin:0 auto;
 
 `
-    
+
 const GalleryTextSpan = styled.span`
   display:flex;
   flex-direction:column;
   padding:5rem;
 `
-   

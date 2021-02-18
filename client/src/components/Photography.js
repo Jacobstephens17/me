@@ -21,11 +21,11 @@ function Photography (){
 
         <StyledHome>
             <TopOfPage>
-                <HeaderOne>Photography</HeaderOne>  
-                <Paragraph>Here is a portfolio of photos I have taken</Paragraph>
+                <HeaderOne>PHOTOGRAPHY</HeaderOne>
+                <Paragraph>HERE ARE SOME PHOTOS I HAVE TAKEN</Paragraph>
             </TopOfPage>
 
-            
+
             <PhotoAPI>Photo API = {photos}, but empty. Waiting for Jacob to build personal photo api...</PhotoAPI>
 
             <CenterDiv>
@@ -33,7 +33,7 @@ function Photography (){
             </CenterDiv>
 
             <PhotoCarousel/>
-            
+
           <ContactInfo/>
 
 
@@ -73,10 +73,10 @@ const HeaderOne = styled.h1`
     justify-content:center;
     font-size:60px;
     text-shadow:5px 3px 30px black;
- 
+
 `
 
-const Paragraph = styled.p` 
+const Paragraph = styled.p`
 text-align: center;
 color:white;
 padding-top:3rem;

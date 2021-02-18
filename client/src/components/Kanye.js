@@ -4,9 +4,9 @@ import axios from 'axios';
 
 
 const KanyeQuote = () => {
-    
+
     const [quote, setQuote] = useState();
-    
+
     const quoteRequest = () => {
         axios
             .get('https://api.kanye.rest')
@@ -34,17 +34,20 @@ export default KanyeQuote;
 const StyledDiv = styled.div`
     display:flex;
     flex-direction:column;
-    justify-content:center; 
+    justify-content:center;
     align-items:center;
     align-content:center;
     justify-items:center;
-    margin:5rem;
-
+    padding-bottom:2rem;
+    padding-top:2rem;
+    background-color:black;
+    max-width:100%;
 `
 const H1 = styled.h1`
     color:#000080;
     text-align:center;
     font-weight:bolder;
+    width:90%;
 `
 
 const P = styled.p`
@@ -70,7 +73,7 @@ const Card = styled.div`
     margin-top:2rem;
     display:flex;
     flex-wrap:wrap;
-    width:100%; 
+    max-width:100%;
     text-align:center;
     font-weight:bolder;
     font-size:2rem;
