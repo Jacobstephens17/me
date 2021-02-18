@@ -33,13 +33,31 @@ import Projects from './Projects'
 }
 
 export default Header;
-    // import styled from 'styled-components';
 
+<<<<<<< HEAD
     const StyledPage = styled.div`
 
     `
 
     const Menu = styled.div`
   
+=======
+
+const StyledPage = styled.div`
+    background-color:black;
+    max-width:100%;
+    position:static;
+    display:flex;
+    flex-direction:column;
+`
+
+const Menu = styled.div`
+    text-align:left;
+    background:none;
+    display:flex;
+    flex-wrap:wrap;
+    
+`
+>>>>>>> aeb4ffc73a3858645d4762f4200cfce7bd1d88bd
 
 `
