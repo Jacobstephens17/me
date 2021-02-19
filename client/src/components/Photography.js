@@ -25,8 +25,9 @@ function Photography (){
                 <Paragraph>HERE ARE SOME PHOTOS I HAVE TAKEN</Paragraph>
             </TopOfPage>
 
-
-          <PhotoAPI>Photo API = {photos}, but empty. Waiting for Jacob to build personal photo api...</PhotoAPI>
+            <PhotoAPIDiv>   
+                <PhotoAPI>Photo API = {photos}, but empty. Waiting for Jacob to build personal photo api...</PhotoAPI>
+            </PhotoAPIDiv>
 
             <CenterDiv>
                 <HeaderTwo>“Taking pictures is savoring life intensely, every hundredth of a second.” <br/> -Marc Riboud</HeaderTwo>
@@ -49,7 +50,7 @@ const StyledHome = styled.div`
     display: flex;
     flex-direction:column;
     max-width:100%;
-    min-width:375px;
+    min-width:373px;
     width:100%;
     height:85rem;
 `
@@ -91,7 +92,12 @@ const Paragraph = styled.p`
     text-shadow:5px 3px 20px black;
 
 `
-
+const PhotoAPIDiv = styled.div`
+    max-width:800%;
+    background-color:black;
+    text-align:center;
+    
+`
 const PhotoAPI = styled.div`
     display:flex;
     flex-wrap:wrap;

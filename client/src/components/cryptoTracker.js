@@ -71,51 +71,53 @@ export default CryptoTracker;
 
 
 const StyledPage = styled.div`
-padding:3rem; 
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-background-color:black;
+    padding:3rem; 
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    max-width:100%;
+    background-color:black;
 `
 
 const Button = styled.button`
-color:white;
-background:none;
-border:1px solid white;
-border-radius:8px;
-padding:2rem;
-margin:3rem;
-font-size:1rem;
+    color:white;
+    background:none;
+    border:1px solid white;
+    border-radius:8px;
+    padding:2rem;
+    margin:3rem;
+    font-size:1rem;
 
 `
 
 const CryptoDiv = styled.div`
-display:flex;
-flex-direction:row;
-align-items:center;
-flex-wrap:wrap;
-justify-content:space-evenly;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
 
 `
 
 const Header = styled.h1`
-    font-size:3rem;
+    font-size:2rem;
     color:white;
     text-align:center;
+    margin:1rem;
 
 `
 
 const H1 = styled.h1 `
-color:white;
-font-size:16px;
+    color:white;
+    font-size:16px;
 
 `
 
 const P = styled.p`
 
-color:white;
-border:1px solid white;
-margin:2rem;
-padding:1rem;
+    color:white;
+    border:1px solid white;
+    margin:2rem;
+    padding:1rem;
 `

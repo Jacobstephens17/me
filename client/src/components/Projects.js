@@ -24,7 +24,7 @@ function Projects (){
                 <H1>Coming soon...</H1>
 
                 <Bubbles href="https://web-sprint-challenge-advanced-web-applications-foue3lnic.vercel.app/">Bubbles Page</Bubbles>
-                <P>This project was focused on user authentication using localstorage tokens</P>
+                <P>This project was focused on user authentication using localstorage tokens.<br/>(Unfortunately for now, in order to login you have to open the site in google chrome on desktop) <br/> Other Platform Support Coming Soon :)</P>
 
             </CenterDiv>
             <CryptoTracker/>
@@ -43,7 +43,8 @@ const StyledHome = styled.div`
     flex-direction:column;
     min-width:375px;
     width:100%;
-    height:150rem;
+    min-width:385px;
+    height:auto;
 `
 
 const TopOfPage = styled.div`
