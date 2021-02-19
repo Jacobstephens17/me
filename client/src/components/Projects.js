@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import ContactInfo from './ContactInfo'
+import CryptoTracker from './cryptoTracker';
 
 function Projects (){
 
@@ -26,6 +27,7 @@ function Projects (){
                 <p>This project was focused on user authentication using localstorage tokens</p>
 
             </CenterDiv>
+            <CryptoTracker/>
 
             <ContactInfo/>
         </StyledHome>
@@ -40,8 +42,8 @@ const StyledHome = styled.div`
     display: flex;
     flex-direction:column;
     min-width:375px;
-    widht:100%;
-    height:85rem;
+    width:100%;
+    height:150rem;
 `
 
 const TopOfPage = styled.div`
