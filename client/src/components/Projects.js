@@ -41,9 +41,9 @@ export default Projects;
 const StyledHome = styled.div`
     display: flex;
     flex-direction:column;
-    min-width:375px;
     width:100%;
-    min-width:385px;
+    min-width:375px;
+    padding-left:1px;
     height:auto;
 `
 
@@ -89,7 +89,7 @@ const Paragraph = styled.p`
 const CenterDiv = styled.div`
     color:black;
     background-color:#000080;
-    padding:3%;
+    padding:8%;
     text-align:left;
     font-weight:bold;
 
@@ -113,7 +113,7 @@ const Bubbles = styled.a`
     margin:0 auto;
     text-decoration: none;
     color:white;
-    text-align:left;
+    text-align:center;
     width:25%;
     justify-content:center;
 
