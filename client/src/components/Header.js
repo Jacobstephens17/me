@@ -18,6 +18,7 @@ import Projects from './Projects'
                         <Link className='buttons' to='/'>HOME</Link>
                         <Link className='buttons' to='/photography'>PHOTOGRAPHY</Link>
                         <Link className='buttons' to='/projects'>PROJECTS</Link>
+                        {/* <Link className='buttons' to='/signup'>Sign Up!</Link> */}
                     </Hamburger>
                 </Menu>
 
@@ -25,6 +26,7 @@ import Projects from './Projects'
                 <Route exact path="/" component={Home} />
                 <Route path="/projects" component={Projects} />
                 <Route path="/photography" component={Photography} />
+                {/* <Route path="/signup" component={UserValidation} /> */}
             </Switch>
 
         </StyledPage>

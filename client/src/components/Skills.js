@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-
+import '../App.css'
 
 
 const Skills = ()=> {
@@ -12,55 +12,55 @@ const Skills = ()=> {
             <Header>Skills</Header>
                 <SectionHead>Front End</SectionHead>
             <FrontEnd>
-                <Card>
+                <Card className='card'>
                     <Content>HTML5</Content>
                 </Card>
 
-                <Card>
+                <Card className='card'>
                     <Content>CSS</Content>
                 </Card>
 
-                <Card>
+                <Card className='card'>
                     <Content>React.js</Content>
                 </Card>
 
-                <Card>
+                <Card className='card'>
                     <Content>JavaScript</Content>
                 </Card>
 
-                <Card>
+                <Card className='card'>
                     <Content>React Native</Content>
                 </Card>
 
-                <Card>
+                <Card className='card'>
                     <Content>Swift</Content>
                 </Card>
 
-                <Card>
+                <Card className='card'>
                     <Content>Ant Design</Content>
                 </Card>
 
-                <Card>
+                <Card className='card'>
                     <Content>Axios</Content>
                 </Card>
 
-                <Card>
+                <Card className='card'>
                     <Content>Redux</Content>
                 </Card>
 
-                <Card>
+                <Card className='card'>
                     <Content>npm</Content>
                 </Card>
 
-                <Card>
+                <Card className='card'>
                     <Content>expo</Content>
                 </Card>
 
-                <Card>
+                <Card className='card'>
                     <Content>Styled Components</Content>
                 </Card>
 
-                <Card>
+                <Card className='card'>
                     <Content>Single Page Applications</Content>
                 </Card>
 
@@ -71,35 +71,35 @@ const Skills = ()=> {
             <SectionHead>Back End</SectionHead>
             <BackEnd>
 
-                <Card>
+                <Card className='card'>
                     <Content>Node.js</Content>
                 </Card>
 
-                <Card>
+                <Card className='card'>
                     <Content>Express</Content>
                 </Card>
 
-                <Card>
+                <Card className='card'>
                     <Content>Express MiddleWare</Content>
                 </Card>
 
-                <Card>
+                <Card className='card'>
                     <Content>SQL / SQLite Studio</Content>
                 </Card>
 
-                <Card>
+                <Card className='card'>
                     <Content>Relational Databases</Content>
                 </Card>
 
-                <Card>
+                <Card className='card'>
                     <Content>knex.js</Content>
                 </Card>
 
-                <Card>
+                <Card className='card'>
                     <Content>Asynchronous JavaScript</Content>
                 </Card>
 
-                <Card>
+                <Card className='card'>
                     <Content>Data Modeling</Content>
                 </Card>
 
@@ -108,15 +108,15 @@ const Skills = ()=> {
 
             <SectionHead>Deployment</SectionHead>
             <Deployment>
-                <Card>
+                <Card className='card'>
                     <Content>Heroku</Content>
                 </Card>
 
-                <Card>
+                <Card className='card'>
                     <Content>Netlify</Content>
                 </Card>
 
-                <Card>
+                <Card className='card'>
                     <Content>Vercel</Content>
                 </Card>
 
@@ -136,13 +136,13 @@ const Skills = ()=> {
 
             <SectionHead>Operating Systems</SectionHead>
             <OperatingSystems>
-                <Card>
+                <Card className='card'>
                     <Content>MacOS</Content>
                 </Card>
-                <Card>
+                <Card className='card'>
                     <Content>Windows</Content>
                 </Card>
-                <Card>
+                <Card className='card'>
                     <Content>Linux</Content>
                 </Card>
             </OperatingSystems>
@@ -150,13 +150,13 @@ const Skills = ()=> {
 
             <SectionHead>Other</SectionHead>
             <Other>
-                <Card>
+                <Card className='card'>
                     <Content>Git/GitBash</Content>
                 </Card>
-                <Card>
+                <Card className='card'>
                     <Content>GitHub</Content>
                 </Card>
-                <Card>
+                <Card className='card'>
                     <Content>Command Line</Content>
                 </Card>
             </Other>
@@ -250,10 +250,12 @@ const Card = styled.div`
     width:30%;
     padding:5%;
     margin:3%;
+    background-color:#000080;
     align-items:center;
     justify-content:center;
 
 `
+
 
 const Content = styled.div`
     color:white;
