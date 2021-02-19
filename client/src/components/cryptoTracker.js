@@ -39,7 +39,7 @@ const CryptoTracker = () => {
 
   return (
     <StyledPage >
-
+    <Header>Interested in CryptoCurrencies? Check the current price for different coins below!</Header>
       
      <Button onClick={getMarketData}>Get Currency Data</Button>
       <H1>Active Crypto Currencies: {currencyData.active_cryptocurrencies}</H1>
@@ -102,6 +102,7 @@ justify-content:space-evenly;
 const Header = styled.h1`
     font-size:3rem;
     color:white;
+    text-align:center;
 
 `
 

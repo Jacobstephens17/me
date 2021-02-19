@@ -24,7 +24,7 @@ function Projects (){
                 <H1>Coming soon...</H1>
 
                 <Bubbles href="https://web-sprint-challenge-advanced-web-applications-foue3lnic.vercel.app/">Bubbles Page</Bubbles>
-                <p>This project was focused on user authentication using localstorage tokens</p>
+                <P>This project was focused on user authentication using localstorage tokens</P>
 
             </CenterDiv>
             <CryptoTracker/>
@@ -109,10 +109,16 @@ const Bubbles = styled.a`
     border-radius:8px;
     border:2px solid white;
     padding:1rem;
+    margin:0 auto;
     text-decoration: none;
     color:white;
     text-align:left;
     width:25%;
     justify-content:center;
 
+`
+const P = styled.p`
+text-align:center;
+font-weight:bold;
+font-size:1.3rem;
 `
