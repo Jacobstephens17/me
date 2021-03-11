@@ -14,12 +14,12 @@ import Projects from './Projects'
         <StyledPage>
 
                 <Menu  className='menu'>
-                    <Hamburger className='hamburger' >
+                   
                         <Link className='buttons' to='/'>HOME</Link>
                         <Link className='buttons' to='/photography'>PHOTOGRAPHY</Link>
                         <Link className='buttons' to='/projects'>PROJECTS</Link>
                         {/* <Link className='buttons' to='/signup'>Sign Up!</Link> */}
-                    </Hamburger>
+                    
                 </Menu>
 
             <Switch>
@@ -42,13 +42,17 @@ const StyledPage = styled.div`
     max-width:100%;
     position:static;
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
 `
 
 const Menu = styled.div`
     text-align:left;
     background:none;
     display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    width:100%;
     flex-wrap:wrap;
+    position:fixed;
 
 `
