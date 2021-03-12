@@ -75,6 +75,7 @@ const StyledPage = styled.div`
     display:flex;
     flex-direction:column;
     justify-content:center;
+    margin:0 auto;
     align-items:center;
     max-width:375px;
     background-color:black;

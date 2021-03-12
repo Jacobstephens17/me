@@ -94,6 +94,7 @@ const CenterDiv = styled.div`
     background-color:#000080;
     padding:8%;
     text-align:left;
+
     font-weight:bold;
 
 `

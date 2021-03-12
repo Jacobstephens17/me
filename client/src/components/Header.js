@@ -16,8 +16,8 @@ import Projects from './Projects'
                 <Menu  className='menu'>
                    
                         <Link className='buttons' to='/'>HOME</Link>
-                        <Link className='buttons' to='/photography'>PHOTOGRAPHY</Link>
                         <Link className='buttons' to='/projects'>PROJECTS</Link>
+                        {/* <Link className='buttons' to='/photography'>PHOTOGRAPHY</Link> */}
                         {/* <Link className='buttons' to='/signup'>Sign Up!</Link> */}
                     
                 </Menu>
@@ -25,7 +25,7 @@ import Projects from './Projects'
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route path="/projects" component={Projects} />
-                <Route path="/photography" component={Photography} />
+                {/* <Route path="/photography" component={Photography} /> */}
                 {/* <Route path="/signup" component={UserValidation} /> */}
             </Switch>
 

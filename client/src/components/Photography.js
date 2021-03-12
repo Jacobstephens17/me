@@ -62,7 +62,7 @@ const TopOfPage = styled.div`
     flex-wrap:wrap;
     background-size:cover;
     margin-right:5%;
-    padding-bottom:35%;
+    padding-bottom:40%;
     height:100%;
 `
 
@@ -75,7 +75,7 @@ const HeaderOne = styled.h1`
     flex-wrap:wrap;
     margin:10rem auto 0rem auto;
     background-color:none;
-    padding-top:17rem;
+    padding-top:20rem;
     font-weight:30px;
     justify-content:center;
     font-size:50px;

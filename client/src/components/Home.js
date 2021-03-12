@@ -87,7 +87,7 @@ const TopOfPage = styled.div`
   background:url('https://images.unsplash.com/photo-1515563139710-9b2ccf0927c9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2767&q=80') no-repeat center;
   max-width:100%;
   background-size:cover;
-  padding-bottom:45%;
+  padding-bottom:35%;
   height:100%;
 `
 
@@ -99,7 +99,7 @@ const HeaderOne = styled.h1`
   flex-wrap:wrap;
   margin:20% auto 0rem auto;
   background-color:none;
-  padding-top:5rem;
+  padding-top:15rem;
   font-weight:30px;
   justify-content:center;
   font-size:70px;
@@ -115,7 +115,7 @@ const Paragraph = styled.p`
   margin: 0 auto;
   font-size:1.8rem;
   letter-spacing:2px;
-  text-shadow:5px 3px 20px black;\
+  text-shadow:5px 3px 20px black;
   padding-bottom:60%;
 
 `
