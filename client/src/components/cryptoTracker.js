@@ -71,13 +71,13 @@ export default CryptoTracker;
 
 
 const StyledPage = styled.div`
-    padding:3rem; 
     display:flex;
     flex-direction:column;
     justify-content:center;
     margin:0 auto;
     align-items:center;
-    max-width:375px;
+    padding-top:3rem;
+    padding-bottom:3rem;
     background-color:black;
 `
 
