@@ -103,7 +103,33 @@ const Skills = ()=> {
                     <Content>Data Modeling</Content>
                 </Card>
 
+                <Card className='card'>
+                    <Content>PostgreSQL</Content>
+                </Card>
+
+                <Card className='card'>
+                    <Content>pgAdmin 4</Content>
+                </Card>
+
             </BackEnd>
+
+
+            <SectionHead>Computer Science</SectionHead>
+            <CS>
+                <Card>
+                    <Content>Python</Content>
+                </Card>
+
+                <Card>
+                    <Content>Space/Time Complexity</Content>
+                </Card>
+
+                <Card>
+                    <Content>Character Encoding</Content>
+                </Card>
+
+
+            </CS>
 
 
             <SectionHead>Deployment</SectionHead>
@@ -203,6 +229,14 @@ const BackEnd = styled.div`
     flex-wrap:wrap;
     justify-content:center;
 
+`
+
+const CS = styled.div`
+    display:flex;
+    flex-direction:row;
+    margin:10%;
+    flex-wrap:wrap;
+    justify-content:center;
 `
 
 const Deployment = styled.div`

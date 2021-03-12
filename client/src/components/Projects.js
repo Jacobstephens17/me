@@ -26,6 +26,9 @@ function Projects (){
                 <Bubbles href="https://web-sprint-challenge-advanced-web-applications-foue3lnic.vercel.app/">Bubbles Page</Bubbles>
                 <P>This project was focused on user authentication using localstorage tokens.<br/>(Unfortunately for now, in order to login you have to open the site in google chrome on desktop) <br/> Other Platform Support Coming Soon :)</P>
 
+                <Clouds href='https://school-in-the-cloud-pied.vercel.app/
+                '>School in the Clouds</Clouds>
+                <P>For this project I personally built the entire backend while the rest of my team handled front end. You can create an account for Admin, Student or Volunteer, and depending on the way you sign in you will be routed to specific pages and given certain privelages in editing or adding data.</P>
             </CenterDiv>
             <CryptoTracker/>
 
@@ -118,8 +121,21 @@ const Bubbles = styled.a`
     justify-content:center;
 
 `
+
+const Clouds = styled.a`
+    display:flex;
+    border-radius:8px;
+    border:2px solid white;
+    padding:1rem;
+    margin:0 auto;
+    text-decoration: none;
+    color:white;
+    text-align:center;
+    width:25%;
+    justify-content:center;
+`
 const P = styled.p`
-text-align:center;
-font-weight:bold;
-font-size:1.3rem;
+    text-align:center;
+    font-weight:bold;
+    font-size:1.3rem;
 `

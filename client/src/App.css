@@ -49,10 +49,7 @@
   height: auto;
   width: 100%;
 }
-.card :hover{
-  color:red;
-  font-size:3rem;
-}
+
 .form{
   color:white;
   font-size:3rem;
