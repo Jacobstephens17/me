@@ -84,11 +84,12 @@ const StyledHome = styled.div`
 `
 
 const TopOfPage = styled.div`
-  background:url('https://images.unsplash.com/photo-1515563139710-9b2ccf0927c9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2767&q=80') no-repeat center;
+  background:url('https://images.unsplash.com/photo-1524458100197-c870d78f0e45?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2767&q=80') no-repeat center;
   max-width:100%;
   background-size:cover;
   padding-bottom:35%;
   height:100%;
+  width:100%;
 `
 
 const HeaderOne = styled.h1`
