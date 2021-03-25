@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import ContactInfo from './ContactInfo'
 import CryptoTracker from './cryptoTracker';
+import Weather from './Weather.js'
 
 function Projects (){
 
@@ -31,7 +32,7 @@ function Projects (){
                 <P>For this project I personally built the entire backend while the rest of my team handled front end. You can create an account for Admin, Student or Volunteer, and depending on the way you sign in you will be routed to specific pages and given certain privelages in editing or adding data.</P>
             </CenterDiv>
             <CryptoTracker/>
-
+            <Weather/>
             <ContactInfo/>
         </StyledHome>
 
