@@ -33,7 +33,7 @@ const Skills = ()=> {
                 </Card>
 
                 <Card className='card'>
-                    <Content>Swift</Content>
+                    <Content>SwiftUI</Content>
                 </Card>
 
                 <Card className='card'>
@@ -64,6 +64,25 @@ const Skills = ()=> {
                     <Content>Single Page Applications</Content>
                 </Card>
 
+                <Card className='card'>
+                    <Content>yarn</Content>
+                </Card>
+
+                <Card className='card'>
+                    <Content>Three.js</Content>
+                </Card>
+
+                <Card className='card'>
+                    <Content>WebGL</Content>
+                </Card>
+
+                <Card className='card'>
+                    <Content>react-three-fiber</Content>
+                </Card>
+
+                <Card className='card'>
+                    <Content>drei</Content>
+                </Card>
             </FrontEnd>
 
 
@@ -109,6 +128,18 @@ const Skills = ()=> {
 
                 <Card className='card'>
                     <Content>pgAdmin 4</Content>
+                </Card>
+
+                <Card className='card'>
+                    <Content>Ruby on Rails</Content>
+                </Card>
+
+                <Card className='card'>
+                    <Content>CloudKit</Content>
+                </Card>
+
+                <Card className='card'>
+                    <Content>Django</Content>
                 </Card>
 
             </BackEnd>
@@ -197,8 +228,9 @@ export default Skills;
 const StyledPage = styled.div`
     display:flex;
     flex-direction:column;
+    flex-wrap:wrap;
     max-width:100%;
-    background-color:#000080;
+    background:linear-gradient(black,#000080);
 
 `
 const Header = styled.h1`
@@ -216,8 +248,9 @@ const SectionHead = styled.h2`
 `
 const FrontEnd = styled.div`
     display:flex;
-    flex-direction:row;
+    max-width:100%;
     margin:10%;
+    flex-direction:row;
     flex-wrap:wrap;
     justify-content:center;
 `
@@ -281,10 +314,13 @@ const Card = styled.div`
     flex-direction:row;
     border:3px solid black;
     border-radius:8px;
-    width:30%;
-    padding:5%;
+    min-width:80px;
+    background: conic-gradient(at 0% 30%, red 20%, purple 30%, #1e90ff 40%);
+    width:50px;
+    height:20px;
+    max-height:10px;
     margin:3%;
-    background-color:#000080;
+    padding:3%;
     align-items:center;
     justify-content:center;
 
@@ -294,5 +330,5 @@ const Card = styled.div`
 const Content = styled.div`
     color:white;
     text-align:center;
-    font-weight:bold;
+    font-weight:light;
 `

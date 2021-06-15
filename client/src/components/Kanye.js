@@ -11,9 +11,9 @@ const KanyeQuote = () => {
         axios
             .get('https://api.kanye.rest')
             .then((res) => {
-                console.log(res);
+                // console.log(res);
                 setQuote(res.data.quote)
-            })
+            })  
     }
     const handleClick = () => {
         quoteRequest();
@@ -40,18 +40,20 @@ const StyledDiv = styled.div`
     justify-items:center;
     padding-bottom:2rem;
     padding-top:2rem;
-    background-color:black;
+    background:linear-gradient(#000080, black);
+    border-top: 1px white solid;
+    border-bottom: 1px white solid;
     max-width:100%;
 `
 const H1 = styled.h1`
-    color:#000080;
+    color:white;
     text-align:center;
     font-weight:bolder;
     width:90%;
 `
 
 const P = styled.p`
-    color:#000080;
+    color:white;
     text-align:center;
     font-weight:bolder;
 `
@@ -59,7 +61,7 @@ const P = styled.p`
 const Button = styled.button`
     padding:1rem 1.5rem;
     font-size:1rem;
-    color: #000080;
+    color: white;
     font-weight:bolder;
     border:2px solid #000080;
     border-radius:8px;
@@ -69,7 +71,7 @@ const Button = styled.button`
 const Card = styled.div`
     border-radius:8px;
     padding:2rem;
-    color:#000080;
+    color:white;
     margin-top:2rem;
     display:flex;
     flex-wrap:wrap;
