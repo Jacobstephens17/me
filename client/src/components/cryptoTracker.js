@@ -73,12 +73,13 @@ export default CryptoTracker;
 const StyledPage = styled.div`
     display:flex;
     flex-direction:column;
+    width:100%;
     justify-content:center;
     margin:0 auto;
     align-items:center;
     padding-top:3rem;
     padding-bottom:3rem;
-    background-color:black;
+    background:linear-gradient(black,rgba(0,0,255,.8));
 `
 
 const Button = styled.button`

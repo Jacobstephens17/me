@@ -94,8 +94,8 @@ export default Weather;
 const StyledPage = styled.div`
     max-width:100%;
     height:auto;
+    background:linear-gradient(rgba(0,0,255,.8),#2c333a);
     padding:2rem;
-    background-color:#000080;
     color:white;
 `
 const H1 = styled.h1`

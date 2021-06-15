@@ -41,8 +41,6 @@ const StyledDiv = styled.div`
     padding-bottom:2rem;
     padding-top:2rem;
     background:linear-gradient(#000080, black);
-    border-top: 1px white solid;
-    border-bottom: 1px white solid;
     max-width:100%;
 `
 const H1 = styled.h1`

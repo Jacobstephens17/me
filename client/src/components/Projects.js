@@ -22,14 +22,10 @@ function Projects (){
             <CenterDiv>
 
                 <HeaderTwo>LINKS</HeaderTwo>
-                <H1>Coming soon...</H1>
 
-                <Bubbles href="https://web-sprint-challenge-advanced-web-applications-foue3lnic.vercel.app/">Bubbles Page</Bubbles>
-                <P>This project was focused on user authentication using localstorage tokens.<br/>(Unfortunately for now, in order to login you have to open the site in google chrome on desktop) <br/> Other Platform Support Coming Soon :)</P>
-
+                <P>For this project I personally built the entire backend while the rest of my team handled front end. You can create an account for Admin, Student or Volunteer, and depending on the way you sign in you will be routed to specific pages and given certain privelages in editing or adding data.</P>
                 <Clouds href='https://school-in-the-cloud-pied.vercel.app/
                 '>School in the Clouds</Clouds>
-                <P>For this project I personally built the entire backend while the rest of my team handled front end. You can create an account for Admin, Student or Volunteer, and depending on the way you sign in you will be routed to specific pages and given certain privelages in editing or adding data.</P>
             </CenterDiv>
             <CryptoTracker/>
             <Weather/>
@@ -52,10 +48,28 @@ const StyledHome = styled.div`
 `
 
 const TopOfPage = styled.div`
-    background:url('https://images.unsplash.com/photo-1515563139710-9b2ccf0927c9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2767&q=80') no-repeat center;
+    // background:
+    // repeating-linear-gradient(190deg, rgba(255, 0, 0, 0.5) 40px,
+    // rgba(255, 153, 0, 0.5) 80px, rgba(255, 255, 0, 0.5) 120px,
+    // rgba(0, 255, 0, 0.5) 160px, rgba(0, 0, 255, 0.5) 200px,
+    // rgba(75, 0, 130, 0.5) 240px, rgba(238, 130, 238, 0.5) 280px,
+    // rgba(255, 0, 0, 0.5) 300px),
+    // repeating-linear-gradient(-190deg, rgba(255, 0, 0, 0.5) 30px,
+    // rgba(255, 153, 0, 0.5) 60px, rgba(255, 255, 0, 0.5) 90px,
+    // rgba(0, 255, 0, 0.5) 120px, rgba(0, 0, 255, 0.5) 150px,
+    // rgba(75, 0, 130, 0.5) 180px, rgba(238, 130, 238, 0.5) 210px,
+    // rgba(255, 0, 0, 0.5) 230px),
+    // repeating-linear-gradient(23deg, red 50px, orange 100px,
+    // yellow 150px, green 200px, blue 250px,
+    // indigo 300px, violet 350px, red 370px);
+    
+    background:linear-gradient(black, rgba(0,0,255,.8));
+
+    
     width:100%;
     background-size:cover;
-    height:125vh;
+
+    padding-bottom:15rem;
 `
 
 const H1 = styled.h1`
@@ -63,19 +77,18 @@ const H1 = styled.h1`
 `
 
 const HeaderOne = styled.h1`
-    color:white;
-    text-align:center;
-    width:100%;
-    display:flex;
-    flex-wrap:wrap;
-    margin:15rem auto 0rem auto;
-    background-color:none;
-    padding-top:15rem;
-    font-weight:30px;
-    padding-bottom:3rem;
-    justify-content:center;
-    font-size:70px;
-    text-shadow:5px 3px 30px black;
+color:white;
+text-align:center;
+width:100%;
+display:flex;
+flex-wrap:wrap;
+background-color:none;
+padding-top:10rem;
+margin-bottom:3rem;
+font-weight:30px;
+justify-content:center;
+font-size:70px;
+text-shadow:5px 3px 30px black;
 
 `
 
@@ -91,8 +104,8 @@ const Paragraph = styled.p`
 `
 
 const CenterDiv = styled.div`
-    color:black;
-    background-color:#000080;
+    color:white;
+    background:linear-gradient(rgba(0,0,255,.8), black);
     padding:8%;
     text-align:left;
     font-weight:bold;
@@ -106,21 +119,9 @@ const HeaderTwo = styled.h2`
     text-align:center;
     border-bottom: solid 1.5px darkgrey;
     font-weight:bold;
+    
     font-size:35px;
     letter-spacing: 2px;
-`
-const Bubbles = styled.a`
-    display:flex;
-    border-radius:8px;
-    border:2px solid white;
-    padding:1rem;
-    margin:0 auto;
-    text-decoration: none;
-    color:white;
-    text-align:center;
-    width:25%;
-    justify-content:center;
-
 `
 
 const Clouds = styled.a`
