@@ -233,14 +233,14 @@ export default Skills;
 
 
 gsap.to(".card", { rotation:360, x: 0, y: 0, duration: 2, repeat:2, stagger:1})
-gsap.to(".frontendHeader", { rotation:0, x: 130, y: 50, duration: 2})
-gsap.to(".skillsHeader", { rotation:0, x: -125, y: 100, duration: 2})
-gsap.to(".backendSkills", { rotation:0, x: -130, y: 50, duration: 2})
-gsap.to(".computerScience", { rotation:0, x: 80, y: 40, duration: 2})
-gsap.to(".deployment", { rotation:0, x: -115, y: 40, duration: 2})
-gsap.to(".testing", { rotation:0, x: 140, y: 40, duration: 2})
-gsap.to(".operatingSystem", { rotation:0, x: -75, y: 40, duration: 2})
-gsap.to(".other", { rotation:0, x: 120, y: 40, duration: 2})
+// gsap.to(".frontendHeader", { rotation:0, x: 130, y: 50, duration: 2})
+// gsap.to(".skillsHeader", { rotation:0, x: -125, y: 100, duration: 2})
+// gsap.to(".backendSkills", { rotation:0, x: -130, y: 50, duration: 2})
+// gsap.to(".computerScience", { rotation:0, x: 80, y: 40, duration: 2})
+// gsap.to(".deployment", { rotation:0, x: -115, y: 40, duration: 2})
+// gsap.to(".testing", { rotation:0, x: 140, y: 40, duration: 2})
+// gsap.to(".operatingSystem", { rotation:0, x: -75, y: 40, duration: 2})
+// gsap.to(".other", { rotation:0, x: 120, y: 40, duration: 2})
 
 
 
