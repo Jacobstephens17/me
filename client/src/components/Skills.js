@@ -1,8 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
 import '../App.css'
-import { gsap } from 'gsap'
 
+import { gsap } from 'gsap'
+import { PixiPlugin } from "gsap/PixiPlugin.js";
+import { MotionPathPlugin } from "gsap/MotionPathPlugin.js";
+gsap.registerPlugin(PixiPlugin, MotionPathPlugin);
 const Skills = ()=> {
 
 
@@ -231,12 +234,12 @@ export default Skills;
 
 gsap.to(".card", { rotation:360, x: 0, y: 0, duration: 2, repeat:2, stagger:1})
 gsap.to(".frontendHeader", { rotation:0, x: 130, y: 50, duration: 2})
-gsap.to(".skillsHeader", { rotation:0, x: -130, y: 100, duration: 2})
+gsap.to(".skillsHeader", { rotation:0, x: -125, y: 100, duration: 2})
 gsap.to(".backendSkills", { rotation:0, x: -130, y: 50, duration: 2})
-gsap.to(".computerScience", { rotation:0, x: 90, y: 40, duration: 2})
-gsap.to(".deployment", { rotation:0, x: -90, y: 40, duration: 2})
-gsap.to(".testing", { rotation:0, x: 120, y: 40, duration: 2})
-gsap.to(".operatingSystem", { rotation:0, x: -130, y: 40, duration: 2})
+gsap.to(".computerScience", { rotation:0, x: 80, y: 40, duration: 2})
+gsap.to(".deployment", { rotation:0, x: -115, y: 40, duration: 2})
+gsap.to(".testing", { rotation:0, x: 140, y: 40, duration: 2})
+gsap.to(".operatingSystem", { rotation:0, x: -75, y: 40, duration: 2})
 gsap.to(".other", { rotation:0, x: 120, y: 40, duration: 2})
 
 
@@ -274,7 +277,7 @@ const FrontEnd = styled.div`
     margin:10%;
     flex-direction:row;
     flex-wrap:wrap;
-    justify-content:center;
+    justify-content:space-evenly;
 `
 
 const BackEnd = styled.div`
@@ -282,7 +285,7 @@ const BackEnd = styled.div`
     flex-direction:row;
     margin:10%;
     flex-wrap:wrap;
-    justify-content:center;
+    justify-content:space-evenly;
 
 `
 
@@ -291,7 +294,7 @@ const CS = styled.div`
     flex-direction:row;
     margin:10%;
     flex-wrap:wrap;
-    justify-content:center;
+    justify-content:space-evenly;
 `
 
 const Deployment = styled.div`
@@ -299,7 +302,7 @@ const Deployment = styled.div`
     flex-direction:row;
     margin:10%;
     flex-wrap:wrap;
-    justify-content:center;
+    justify-content:space-evenly;
 `
 
 const Testing = styled.div`
@@ -307,7 +310,7 @@ const Testing = styled.div`
     flex-direction:row;
     margin:10%;
     flex-wrap:wrap;
-    justify-content:center;
+    justify-content:space-evenly;
 
 `
 
@@ -316,7 +319,7 @@ const OperatingSystems = styled.div`
     flex-direction:row;
     margin:10%;
     flex-wrap:wrap;
-    justify-content:center;
+    justify-content:space-evenly;
 `
 
 
@@ -325,7 +328,7 @@ const Other = styled.div`
     flex-direction:row;
     margin:10%;
     flex-wrap:wrap;
-    justify-content:center;
+    justify-content:space-evenly;
 `
 
 
@@ -344,7 +347,7 @@ const Card = styled.div`
     margin:3%;
     padding:3%;
     align-items:center;
-    justify-content:center;
+    justify-content:space-evenly;
 
 `
 
@@ -352,6 +355,7 @@ const Card = styled.div`
 const Content = styled.div`
 color:#D2B48C;
 text-shadow:5px 3px 20px black;
+font-size:.8rem;
     text-align:center;
     font-weight:light;
 `
