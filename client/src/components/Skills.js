@@ -9,8 +9,8 @@ const Skills = ()=> {
     return(
         <StyledPage>
 
-            <Header>Skills</Header>
-                <SectionHead>Front End</SectionHead>
+            <Header className='skillsHeader'>Skills</Header>
+                <SectionHead className='frontendHeader'>Front End</SectionHead>
             <FrontEnd>
                 <Card className='card'>
                     <Content>HTML5</Content>
@@ -91,7 +91,7 @@ const Skills = ()=> {
 
 
 
-            <SectionHead>Back End</SectionHead>
+            <SectionHead className='backendSkills'>Back End</SectionHead>
             <BackEnd>
 
                 <Card className='card'>
@@ -149,7 +149,7 @@ const Skills = ()=> {
             </BackEnd>
 
 
-            <SectionHead>Computer Science</SectionHead>
+            <SectionHead className='computerScience'>Computer Science</SectionHead>
             <CS>
                 <Card>
                     <Content>Python</Content>
@@ -167,7 +167,7 @@ const Skills = ()=> {
             </CS>
 
 
-            <SectionHead>Deployment</SectionHead>
+            <SectionHead className='deployment'>Deployment</SectionHead>
             <Deployment>
                 <Card className='card'>
                     <Content>Heroku</Content>
@@ -184,7 +184,7 @@ const Skills = ()=> {
             </Deployment>
 
 
-            <SectionHead>Testing</SectionHead>
+            <SectionHead className='testing'>Testing</SectionHead>
             <Testing>
                 <Card>
                     <Content>Jest</Content>
@@ -195,7 +195,7 @@ const Skills = ()=> {
             </Testing>
 
 
-            <SectionHead>Operating Systems</SectionHead>
+            <SectionHead className='operatingSystem'>Operating Systems</SectionHead>
             <OperatingSystems>
                 <Card className='card'>
                     <Content>MacOS</Content>
@@ -209,7 +209,7 @@ const Skills = ()=> {
             </OperatingSystems>
 
 
-            <SectionHead>Other</SectionHead>
+            <SectionHead className='other'>Other</SectionHead>
             <Other>
                 <Card className='card'>
                     <Content>Git/GitBash</Content>
@@ -230,6 +230,14 @@ export default Skills;
 
 
 gsap.to(".card", { rotation:360, x: 0, y: 0, duration: 2, repeat:2, stagger:1})
+gsap.to(".frontendHeader", { rotation:0, x: 130, y: 50, duration: 2})
+gsap.to(".skillsHeader", { rotation:0, x: -130, y: 100, duration: 2})
+gsap.to(".backendSkills", { rotation:0, x: -130, y: 50, duration: 2})
+gsap.to(".computerScience", { rotation:0, x: 90, y: 40, duration: 2})
+gsap.to(".deployment", { rotation:0, x: -90, y: 40, duration: 2})
+gsap.to(".testing", { rotation:0, x: 120, y: 40, duration: 2})
+gsap.to(".operatingSystem", { rotation:0, x: -130, y: 40, duration: 2})
+gsap.to(".other", { rotation:0, x: 120, y: 40, duration: 2})
 
 
 
