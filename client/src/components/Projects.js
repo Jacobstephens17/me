@@ -63,7 +63,7 @@ const TopOfPage = styled.div`
     // yellow 150px, green 200px, blue 250px,
     // indigo 300px, violet 350px, red 370px);
     
-    background:linear-gradient(black, rgba(0,0,255,.8));
+    background:linear-gradient(#2c333a, #2F4F4F);
 
     
     width:100%;
@@ -77,7 +77,7 @@ const H1 = styled.h1`
 `
 
 const HeaderOne = styled.h1`
-color:white;
+color:#D2B48C;
 text-align:center;
 width:100%;
 display:flex;
@@ -94,7 +94,7 @@ text-shadow:5px 3px 30px black;
 
 const Paragraph = styled.p`
     text-align: center;
-    color:white;
+    color:#D2B48C;
     width:65%;
     margin: 0 auto;
     font-size:1.3rem;
@@ -104,21 +104,23 @@ const Paragraph = styled.p`
 `
 
 const CenterDiv = styled.div`
-    color:white;
-    background:linear-gradient(rgba(0,0,255,.8), black);
+    color:#D2B48C;
+    background:linear-gradient(#2F4F4F,  #2c333a);
     padding:8%;
     text-align:left;
     font-weight:bold;
+    text-shadow:5px 3px 30px black;
 
 `
 
 const HeaderTwo = styled.h2`
-    color:white;
+    color:#D2B48C;
     width:75%;
     margin:auto;
     text-align:center;
     border-bottom: solid 1.5px darkgrey;
     font-weight:bold;
+    text-shadow:5px 3px 30px black;
     
     font-size:35px;
     letter-spacing: 2px;
@@ -127,11 +129,12 @@ const HeaderTwo = styled.h2`
 const Clouds = styled.a`
     display:flex;
     border-radius:8px;
-    border:2px solid white;
+    border:2px solid #D2B48C;
     padding:1rem;
     margin:0 auto;
     text-decoration: none;
-    color:white;
+    color:#D2B48C;
+    text-shadow:5px 3px 30px black;
     text-align:center;
     width:25%;
     justify-content:center;
@@ -140,4 +143,5 @@ const P = styled.p`
     text-align:center;
     font-weight:bold;
     font-size:1.3rem;
+    text-shadow:5px 3px 30px black;
 `

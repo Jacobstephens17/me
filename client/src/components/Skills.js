@@ -230,7 +230,11 @@ const StyledPage = styled.div`
     flex-direction:column;
     flex-wrap:wrap;
     max-width:100%;
-    background:linear-gradient(black,#000080);
+    background:linear-gradient(
+        #2F4F4F
+        ,
+        #2c333a
+        );
 
 `
 const Header = styled.h1`

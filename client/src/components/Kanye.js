@@ -40,7 +40,10 @@ const StyledDiv = styled.div`
     justify-items:center;
     padding-bottom:2rem;
     padding-top:2rem;
-    background:linear-gradient(#000080, black);
+    background:linear-gradient(
+        #2c333a,
+        #2F4F4F
+        );
     max-width:100%;
 `
 const H1 = styled.h1`

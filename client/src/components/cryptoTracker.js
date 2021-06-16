@@ -79,13 +79,13 @@ const StyledPage = styled.div`
     align-items:center;
     padding-top:3rem;
     padding-bottom:3rem;
-    background:linear-gradient(black,rgba(0,0,255,.8));
+    background:linear-gradient(#2c333a, #2F4F4F);
 `
 
 const Button = styled.button`
-    color:white;
+color:#D2B48C;
     background:none;
-    border:1px solid white;
+    border:1px solid #D2B48C;
     border-radius:8px;
     padding:2rem;
     margin:3rem;
@@ -104,22 +104,22 @@ const CryptoDiv = styled.div`
 
 const Header = styled.h1`
     font-size:2rem;
-    color:white;
+    color:#D2B48C;
     text-align:center;
     margin:1rem;
 
 `
 
 const H1 = styled.h1 `
-    color:white;
+color:#D2B48C;
     font-size:16px;
 
 `
 
 const P = styled.p`
 
-    color:white;
-    border:1px solid white;
+    color:#D2B48C;
+    border:2px solid #D2B48C;
     margin:2rem;
     padding:1rem;
 `
