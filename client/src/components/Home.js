@@ -3,6 +3,12 @@ import styled from 'styled-components'
 import KanyeQuote from './Kanye'
 import ContactInfo from './ContactInfo'
 import Skills from './Skills'
+import { gsap } from 'gsap'
+// import { PixiPlugin } from "gsap/PixiPlugin.js";
+// import { MotionPathPlugin } from "gsap/MotionPathPlugin.js";
+
+
+// gsap.registerPlugin(PixiPlugin, MotionPathPlugin);
 
 function Home() {
   return (
@@ -10,7 +16,7 @@ function Home() {
     <StyledHome>
 
       <TopOfPage>
-        <HeaderOne>Jacob Stephens</HeaderOne>
+        <HeaderOne className='fullname'>Jacob Stephens</HeaderOne>
         <Paragraph>Resume Website</Paragraph>
       </TopOfPage>
 
@@ -28,6 +34,10 @@ function Home() {
 export default Home;
 
 
+gsap.to(".fullname", { rotation:0, y: 0, duration: 2})
+gsap.to(".fullname", { rotation:0, y: -100, duration: 2, delay:2})
+gsap.to(".fullname", { rotation:0, y: 0, duration: 2, delay:4})
+gsap.to(".fullname", { rotation:0, y: -100, duration: 2, delay:6})
 
 
 /*Styling Using styled. Components*/

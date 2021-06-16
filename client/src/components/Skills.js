@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import '../App.css'
-
+import { gsap } from 'gsap'
 
 const Skills = ()=> {
 
@@ -14,6 +14,10 @@ const Skills = ()=> {
             <FrontEnd>
                 <Card className='card'>
                     <Content>HTML5</Content>
+                </Card>
+
+                <Card className='card'>
+                    <Content>GSAP</Content>
                 </Card>
 
                 <Card className='card'>
@@ -223,6 +227,10 @@ const Skills = ()=> {
 }
 
 export default Skills;
+
+
+gsap.to(".card", { rotation:360, x: 0, y: 0, duration: 2, repeat:2, stagger:1})
+
 
 
 const StyledPage = styled.div`
