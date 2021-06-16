@@ -240,11 +240,13 @@ const StyledPage = styled.div`
 const Header = styled.h1`
     font-size:3rem;
     text-align:center;
-    color:white;
+    color:#D2B48C;
+    text-shadow:5px 3px 20px black;
 `
 
 const SectionHead = styled.h2`
-    color:white;
+color:#D2B48C;
+text-shadow:5px 3px 20px black;
     text-align:center;
     text-decoration:underline;
     
@@ -332,7 +334,8 @@ const Card = styled.div`
 
 
 const Content = styled.div`
-    color:white;
+color:#D2B48C;
+text-shadow:5px 3px 20px black;
     text-align:center;
     font-weight:light;
 `

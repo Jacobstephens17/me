@@ -41,20 +41,23 @@ const StyledDiv = styled.div`
     padding-bottom:2rem;
     padding-top:2rem;
     background:linear-gradient(
-        #2c333a,
+        #2c333a
+        ,
         #2F4F4F
         );
     max-width:100%;
 `
 const H1 = styled.h1`
-    color:white;
+color:#D2B48C;
+text-shadow:5px 3px 20px black;
     text-align:center;
     font-weight:bolder;
     width:90%;
 `
 
 const P = styled.p`
-    color:white;
+color:#D2B48C;
+text-shadow:5px 3px 20px black;
     text-align:center;
     font-weight:bolder;
 `
@@ -62,9 +65,10 @@ const P = styled.p`
 const Button = styled.button`
     padding:1rem 1.5rem;
     font-size:1rem;
-    color: white;
+    color:#D2B48C;
+    text-shadow:5px 3px 20px black;
     font-weight:bolder;
-    border:2px solid #000080;
+    border:2px solid #D2B48C;
     border-radius:8px;
     background:none;
     margin-top:2rem;
@@ -72,7 +76,8 @@ const Button = styled.button`
 const Card = styled.div`
     border-radius:8px;
     padding:2rem;
-    color:white;
+    color:#D2B48C;
+    text-shadow:5px 3px 20px black;
     margin-top:2rem;
     display:flex;
     flex-wrap:wrap;

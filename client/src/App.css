@@ -40,7 +40,8 @@
   font-size: .8rem;
   font-weight:bold;
   border:none;
-  color:white;
+  color:#D2B48C;
+  text-shadow:5px 3px 20px black;
   border-radius: 8px;
   margin:2% 0% 0% 1.5%;
 }

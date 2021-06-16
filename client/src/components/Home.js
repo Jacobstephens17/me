@@ -48,7 +48,8 @@ const TopOfPage = styled.div`
 `
 
 const HeaderOne = styled.h1`
-  color:white;
+color:#D2B48C;
+text-shadow:5px 3px 20px black;
   text-align:center;
   width:100%;
   display:flex;
@@ -64,7 +65,8 @@ const HeaderOne = styled.h1`
 
 const Paragraph = styled.p`
   text-align: center;
-  color:white;
+  color:#D2B48C;
+    text-shadow:5px 3px 20px black;
   padding-top:3rem;
   width:65%;
   padding-bottom:2rem;

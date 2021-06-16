@@ -97,14 +97,15 @@ const StyledPage = styled.div`
     background:linear-gradient(#2F4F4F,#2c333a);
     padding:4rem;
     padding-bottom:10rem;
-    color:white;
+    color:#D2B48C;
+    text-shadow:5px 3px 20px black;
 `
 const H1 = styled.h1`
     font-size:2rem;
     text-align:center;
 `
 const Input = styled.input`
-    border:.5px solid black;
+    border:.5px solid #D2B48C;;
     border-radius:8px;
     padding:2% 5%;
     text-align:center;
@@ -130,7 +131,8 @@ const Content = styled.div`
     font-size:1.2rem;
     width:80%;
     text-align: center;
-    color:black;
+    color:#D2B48C;
+    text-shadow:5px 3px 20px black;
     margin:0 auto;
 
 `

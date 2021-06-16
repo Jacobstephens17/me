@@ -94,11 +94,11 @@ text-shadow:5px 3px 30px black;
 
 const Paragraph = styled.p`
     text-align: center;
-    color:#D2B48C;
     width:65%;
     margin: 0 auto;
     font-size:1.3rem;
     letter-spacing:2px;
+    color:#D2B48C;
     text-shadow:5px 3px 20px black;
 
 `
