@@ -42,7 +42,7 @@ const CryptoTracker = () => {
     <Header>Interested in CryptoCurrencies? </Header>
      <Button onClick={getMarketData}>Get Currency Data</Button>
       <H1>Active Crypto Currencies: {currencyData.active_cryptocurrencies}</H1>
-      <H1>Market Cap Change Percentage<br/> (24HRS): <br/> {currencyData.market_cap_change_percentage_24h_usd}</H1>
+      <H1>Market Cap Change Percentage (24HRS): <br/> {currencyData.market_cap_change_percentage_24h_usd}</H1>
       <H1>Markets: {currencyData.markets}</H1>
       <H1>Ongoing Initial Coin Offering: {currencyData.ongoing_icos}</H1>
       <H1>Ended InitialCoin Offering: {currencyData.ended_icos}</H1>
@@ -78,7 +78,7 @@ const StyledPage = styled.div`
     align-items:center;
     padding-top:3rem;
     padding-bottom:3rem;
-    background:linear-gradient(#2c333a, #2F4F4F);
+    background:linear-gradient(#2F4F4F,#2c333a);;
 `
 
 const Button = styled.button`

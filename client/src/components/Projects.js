@@ -22,13 +22,17 @@ function Projects (){
             <CenterDiv>
 
                 <HeaderTwo>LINKS</HeaderTwo>
+                <P>For this project I worked with the Non-Profit organization called Family Promise, linked below is a detailed blog post about the product we built and my individual contributions to the project.</P>
+                <FamilyPromise href='https://jacobstephens17.medium.com/a-step-towards-a-better-tomorrow-fd5a110ed78f'>Family Promise</FamilyPromise>
+
 
                 <P>For this project I personally built the entire backend while the rest of my team handled front end. You can create an account for Admin, Student or Volunteer, and depending on the way you sign in you will be routed to specific pages and given certain privelages in editing or adding data.</P>
                 <Clouds href='https://school-in-the-cloud-pied.vercel.app/
                 '>School in the Clouds</Clouds>
+
             </CenterDiv>
-            <CryptoTracker/>
             <Weather/>
+            <CryptoTracker/>
             <ContactInfo/>
         </StyledHome>
 
@@ -140,7 +144,26 @@ const Clouds = styled.a`
     font-size:.8rem;
     justify-content:center;
 `
+
+const FamilyPromise = styled.a`
+    display:flex;
+    border-radius:8px;
+    border:2px solid #D2B48C;
+    padding:1rem;
+    margin:0 auto;
+    text-decoration: none;
+    color:#D2B48C;
+    text-shadow:5px 3px 30px black;
+    text-align:center;
+    width:25%;
+    font-size:.8rem;
+    justify-content:center;
+`
+
+
 const P = styled.p`
+    padding-top:3rem;
+    padding-bottom:1.5rem;
     text-align:center;
     font-weight:bold;
     font-size:.8rem;
