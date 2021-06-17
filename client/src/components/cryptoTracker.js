@@ -39,11 +39,10 @@ const CryptoTracker = () => {
 
   return (
     <StyledPage >
-    <Header>Interested in CryptoCurrencies? Check the current price for different coins below!</Header>
-      
+    <Header>Interested in CryptoCurrencies? </Header>
      <Button onClick={getMarketData}>Get Currency Data</Button>
       <H1>Active Crypto Currencies: {currencyData.active_cryptocurrencies}</H1>
-      <H1>Market Cap Change Percentage (24HRS): {currencyData.market_cap_change_percentage_24h_usd}</H1>
+      <H1>Market Cap Change Percentage<br/> (24HRS): <br/> {currencyData.market_cap_change_percentage_24h_usd}</H1>
       <H1>Markets: {currencyData.markets}</H1>
       <H1>Ongoing Initial Coin Offering: {currencyData.ongoing_icos}</H1>
       <H1>Ended InitialCoin Offering: {currencyData.ended_icos}</H1>
@@ -84,12 +83,13 @@ const StyledPage = styled.div`
 
 const Button = styled.button`
     color:#D2B48C;
+    font-weight:bolder;
     background:none;
-    border:1px solid #D2B48C;
+    border:2px solid #D2B48C;
     border-radius:8px;
     padding:2rem;
     margin:3rem;
-    font-size:1rem;
+    font-size:.8rem;
 
 `
 
@@ -105,6 +105,7 @@ const CryptoDiv = styled.div`
 const Header = styled.h1`
     font-size:2rem;
     color:#D2B48C;
+    font-weight:bolder;
     text-shadow:5px 3px 20px black;
     text-align:center;
     margin:1rem;
@@ -114,7 +115,7 @@ const Header = styled.h1`
 const H1 = styled.h1 `
     color:#D2B48C;
     text-shadow:5px 3px 20px black;
-    font-size:16px;
+    font-size:.8rem;
 
 `
 

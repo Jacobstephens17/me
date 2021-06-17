@@ -68,8 +68,8 @@ const TopOfPage = styled.div`
     
     width:100%;
     background-size:cover;
-
-    padding-bottom:15rem;
+    padding-top:30%;
+    padding-bottom:30rem;
 `
 
 const H1 = styled.h1`
@@ -137,11 +137,12 @@ const Clouds = styled.a`
     text-shadow:5px 3px 30px black;
     text-align:center;
     width:25%;
+    font-size:.8rem;
     justify-content:center;
 `
 const P = styled.p`
     text-align:center;
     font-weight:bold;
-    font-size:1.3rem;
+    font-size:.8rem;
     text-shadow:5px 3px 30px black;
 `
